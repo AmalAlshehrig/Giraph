@@ -106,40 +106,40 @@ function Home() {
         <div className="banner-stats b-alt">
             <div className="banner-stat-item">
                 <div className="item-num">
-                    {/* <img src= مكان الشعار الخاص/> */}
+                <Spline scene="https://prod.spline.design/yr4bHEC876yLFTiU/scene.splinecode" />
                     <img src={spot}className="ava-spot"/>
                     <div className="ava-circle"></div>
                     <div className="ava-dot"></div>
                 </div>
                 <h4 className="item-title">Areej</h4>
                 <p className="item-p">
-                Human beings are strong because we can change ourselves
+               "Human beings are strong because we can change ourselves"
                 </p>
                 <div className="reviews-dash"></div>
             </div>
             <div className="banner-stat-item">
                 <div className="item-num">
-                    {/* <img src= مكان الشعار الخاص/> */}
+                <Spline scene="https://prod.spline.design/aMkDRmmbrt3ezn3W/scene.splinecode" />
                     <img src={spot} className="ava-spot"/>
                     <div className="ava-circle"></div>
                     <div className="ava-dot"></div>
                 </div>
                 <h4 className="item-title">Amal</h4>
                 <p className="item-p">
-                    If you don't take risks, you can't craete a future!
+                    "If you don't take risks, you can't craete a future!"
                 </p>
                 <div className="reviews-dash"></div>
             </div>
             <div className="banner-stat-item">
                 <div className="item-num">
-                    {/* <img src= مكان الشعار الخاص/> */}
+                <Spline scene="https://prod.spline.design/FV3hnaUzOfngqicg/scene.splinecode" />
                     <img src={spot} className="ava-spot"/>
                     <div className="ava-circle"></div>
                     <div className="ava-dot"></div>
                 </div>
                 <h4 className="item-title">Ghadah</h4>
                 <p className="item-p">
-                    When you give up, that's when the game ends
+                    "When you give up, that's when the game ends"
                 </p>
             </div>
         </div>
