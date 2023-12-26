@@ -62,7 +62,7 @@ function Home() {
                                 <div className="syllabus-num-text">01</div>
                             </div>
                             <h3 className="item-title">Choose Your Room Size</h3>
-                            <p className="item-p">Note</p>
+                            <p className="item-p">The first step is to choose your room size from three given room sizes: large, medium and small.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrow} loading="lazy" alt=""
                                     className="step-arrow-img"/>
@@ -74,7 +74,7 @@ function Home() {
                                 <div className="syllabus-num-text">02</div>
                             </div>
                             <h3 className="item-title">Design Your Room</h3>
-                            <p className="item-p">Note</p>
+                            <p className="item-p">The second step is to design your room by dragging and dropping a furiture into your room space.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrow} loading="lazy" alt=""
                                     className="step-arrow-img"/>
@@ -86,7 +86,7 @@ function Home() {
                                 <div className="syllabus-num-text">03</div>
                             </div>
                             <h3 className="item-title">Download The File</h3>
-                            <p className="item-p">Note</p>
+                            <p className="item-p">Yay, you are done, now you can download your design to view whenever you want.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrowplane} loading="lazy" alt=""
                                     className="step-arrow-img"/>
