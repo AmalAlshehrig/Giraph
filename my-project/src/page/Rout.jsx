@@ -11,7 +11,7 @@ function Rout() {
             <Route path='/' element={<Home/>}/>
             <Route path='/Signup' element={<Signup/>}></Route>  
             <Route path='/Login' element={<Login/>}></Route>  
-            <Route path='/Error' element={<Error/>}></Route>  
+            <Route path='/*' element={<Error/>}></Route>  
         </Routes>
     </div>
   )
