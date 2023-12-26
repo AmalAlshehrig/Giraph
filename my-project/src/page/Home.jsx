@@ -1,8 +1,8 @@
 import React from 'react'
 import './Home.css'
 import spot from '../assets/spot.svg'
-import heroillustr from '../assets/hero_illustr.svg'
-import heroillustrplane from '../assets/hero_illustr-plane.svg'
+//import heroillustr from '../assets/hero_illustr.svg'
+//import heroillustrplane from '../assets/hero_illustr-plane.svg'
 import computercouch from '../assets/computer-couch.png'
 import stepnumb01 from '../assets/step_numb-01.svg'
 import stepnumb02 from '../assets/step_numb-02.svg'
@@ -10,7 +10,11 @@ import stepnumb03 from '../assets/step_numb-03.svg'
 import stepsarrow from '../assets/steps_arrow.svg'
 import stepsarrowplane from '../assets/steps_arrow-plane.svg'
 import { Link } from 'react-router-dom';
+import Spline from '@splinetool/react-spline';
 function Home() {
+   // <img className="person-img" src={heroillustr} alt="Person in chair"/>
+   // <img className="paper-plane" src={heroillustrplane} alt="Paper plane"/>
+   
   return (
     <>
      <main className="section-slides">
@@ -36,8 +40,7 @@ function Home() {
         <div className="container">
             <div className="banner-inner-content">
                 <div className="banner-inner-imgs">
-                    <img className="person-img" src={heroillustr} alt="Person in chair"/>
-                    <img className="paper-plane" src={heroillustrplane} alt="Paper plane"/>
+                   <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
                 </div>
             </div>
         </div>
