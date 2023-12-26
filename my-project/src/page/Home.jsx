@@ -9,6 +9,7 @@ import stepnumb02 from '../assets/step_numb-02.svg'
 import stepnumb03 from '../assets/step_numb-03.svg'
 import stepsarrow from '../assets/steps_arrow.svg'
 import stepsarrowplane from '../assets/steps_arrow-plane.svg'
+import { Link } from 'react-router-dom';
 function Home() {
   return (
     <>
@@ -23,10 +24,10 @@ function Home() {
             </div>
             <div className="nav-right">
                 <div className="nav-cta">
-                    <a href="#" className="btn-prime btn-prime-white header-cta">
+                    <Link to="/Signup" className="btn-prime btn-prime-white header-cta">
                         <div className="btn-wrap"></div>
                         <div className="btn-text">Sign In</div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </header>
