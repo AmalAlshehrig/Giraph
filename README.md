@@ -2,7 +2,6 @@
 <h4>Description : </h4>
 <h4>A website to design YOUR ROOM in 3D easily and at any time</h4>
 <h4>Work Team :</h4>
-<br>
 <a>Areej </a>
 <br>
 <a href="https://github.com/AmalAlshehrig">Amal</a>
