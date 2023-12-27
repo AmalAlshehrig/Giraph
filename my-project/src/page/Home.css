@@ -643,7 +643,7 @@ p {
 @media (min-width: 1024px) {
   .banner-inner-content {
     margin-bottom: 65px;
-    align-items: center;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
   }
 }

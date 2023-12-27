@@ -1,21 +1,18 @@
 import React from 'react'
 import './Home.css'
+import Spline from '@splinetool/react-spline'
 import spot from '../assets/spot.svg'
-//import heroillustr from '../assets/hero_illustr.svg'
-//import heroillustrplane from '../assets/hero_illustr-plane.svg'
+import heroillustr from '../assets/hero_illustr.svg'
+import heroillustrplane from '../assets/hero_illustr-plane.svg'
 import computercouch from '../assets/computer-couch.png'
 import stepnumb01 from '../assets/step_numb-01.svg'
 import stepnumb02 from '../assets/step_numb-02.svg'
 import stepnumb03 from '../assets/step_numb-03.svg'
 import stepsarrow from '../assets/steps_arrow.svg'
 import stepsarrowplane from '../assets/steps_arrow-plane.svg'
-import Logo from '../assets/Logo.webp'
-import { Link } from 'react-router-dom';
-import Spline from '@splinetool/react-spline';
+import Logo from '../assets/1.webp'
+import { Link } from 'react-router-dom'
 function Home() {
-   // <img className="person-img" src={heroillustr} alt="Person in chair"/>
-   // <img className="paper-plane" src={heroillustrplane} alt="Paper plane"/>
-   //
   return (
     <>
      <main className="section-slides">
@@ -24,12 +21,12 @@ function Home() {
         <header className="nav-header">
             <div className="nav-logo">
                 <a href="/">
-                    <img src={Logo}/>
+                <img src={Logo}/>
                 </a>
             </div>
             <div className="nav-right">
                 <div className="nav-cta">
-                    <Link to="/Signup" className="btn-prime btn-prime-white header-cta">
+                    <Link to={'/Signup'} className="btn-prime btn-prime-white header-cta">
                         <div className="btn-wrap"></div>
                         <div className="btn-text">Sign In</div>
                     </Link>
@@ -40,8 +37,15 @@ function Home() {
     <section className="banner-inner">
         <div className="container">
             <div className="banner-inner-content">
+                <div className="banner-inner-text">
+                    <h1 className="banner-title">Design Your Room<span>in easiest way</span></h1>
+                    <p 
+                    className="subheading banner-desc">Design YOUR ROOM in 3D easily and at any time
+                    </p>
+                </div>
                 <div className="banner-inner-imgs">
-                   <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
+                    <img className="person-img" src={heroillustr} alt="Person in chair"/>
+                    <img className="paper-plane" src={heroillustrplane} alt="Paper plane"/>
                 </div>
             </div>
         </div>
@@ -107,40 +111,40 @@ function Home() {
         <div className="banner-stats b-alt">
             <div className="banner-stat-item">
                 <div className="item-num">
-                <Spline scene="https://prod.spline.design/yr4bHEC876yLFTiU/scene.splinecode" />
+                    <Spline scene='https://prod.spline.design/yr4bHEC876yLFTiU/scene.splinecode'/>
                     <img src={spot}className="ava-spot"/>
                     <div className="ava-circle"></div>
                     <div className="ava-dot"></div>
                 </div>
                 <h4 className="item-title">Areej</h4>
                 <p className="item-p">
-               "Human beings are strong because we can change ourselves"
+                Human beings are strong because we can change ourselves
                 </p>
                 <div className="reviews-dash"></div>
             </div>
             <div className="banner-stat-item">
                 <div className="item-num">
-                <Spline scene="https://prod.spline.design/aMkDRmmbrt3ezn3W/scene.splinecode" />
+                <Spline scene='https://prod.spline.design/aMkDRmmbrt3ezn3W/scene.splinecode'/>
                     <img src={spot} className="ava-spot"/>
                     <div className="ava-circle"></div>
                     <div className="ava-dot"></div>
                 </div>
                 <h4 className="item-title">Amal</h4>
                 <p className="item-p">
-                    "If you don't take risks, you can't craete a future!"
+                    If you don't take risks, you can't craete a future!
                 </p>
                 <div className="reviews-dash"></div>
             </div>
             <div className="banner-stat-item">
                 <div className="item-num">
-                <Spline scene="https://prod.spline.design/FV3hnaUzOfngqicg/scene.splinecode" />
+                <Spline scene='https://prod.spline.design/FV3hnaUzOfngqicg/scene.splinecode'/>
                     <img src={spot} className="ava-spot"/>
                     <div className="ava-circle"></div>
                     <div className="ava-dot"></div>
                 </div>
-                <h4 className="item-title">Ghadah</h4>
+                <h4 className="item-title">Gahad</h4>
                 <p className="item-p">
-                    "When you give up, that's when the game ends"
+                    When you give up, that's when the game ends
                 </p>
             </div>
         </div>
