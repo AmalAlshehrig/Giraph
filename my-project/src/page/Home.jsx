@@ -9,6 +9,7 @@ import stepnumb02 from '../assets/step_numb-02.svg'
 import stepnumb03 from '../assets/step_numb-03.svg'
 import stepsarrow from '../assets/steps_arrow.svg'
 import stepsarrowplane from '../assets/steps_arrow-plane.svg'
+import Logo from '../assets/Logo.webp'
 import { Link } from 'react-router-dom';
 import Spline from '@splinetool/react-spline';
 function Home() {
@@ -23,7 +24,7 @@ function Home() {
         <header className="nav-header">
             <div className="nav-logo">
                 <a href="/">
-                    LOGO
+                    <img src={Logo}/>
                 </a>
             </div>
             <div className="nav-right">
