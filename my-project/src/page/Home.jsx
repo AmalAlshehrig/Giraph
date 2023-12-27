@@ -44,9 +44,8 @@ function Home() {
                     </p>
                 </div>
                 <div className="banner-inner-imgs">
-                    <img className="person-img" src={heroillustr} alt="Person in chair"/>
-                    <img className="paper-plane" src={heroillustrplane} alt="Paper plane"/>
-                </div>
+                <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
+        </div>
             </div>
         </div>
     </section>
