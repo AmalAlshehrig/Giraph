@@ -15,7 +15,7 @@ import Spline from '@splinetool/react-spline';
 function Home() {
    // <img className="person-img" src={heroillustr} alt="Person in chair"/>
    // <img className="paper-plane" src={heroillustrplane} alt="Paper plane"/>
-   
+   //
   return (
     <>
      <main className="section-slides">
