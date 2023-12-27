@@ -2,8 +2,6 @@ import React from 'react'
 import './Home.css'
 import Spline from '@splinetool/react-spline'
 import spot from '../assets/spot.svg'
-import heroillustr from '../assets/hero_illustr.svg'
-import heroillustrplane from '../assets/hero_illustr-plane.svg'
 import computercouch from '../assets/computer-couch.png'
 import stepnumb01 from '../assets/step_numb-01.svg'
 import stepnumb02 from '../assets/step_numb-02.svg'
@@ -40,7 +38,7 @@ function Home() {
                 <div className="banner-inner-text">
                     <h1 className="banner-title">Design Your Room<span>in easiest way</span></h1>
                     <p 
-                    className="subheading banner-desc">Design YOUR ROOM in 3D easily and at any time
+                    className="subheading banner-desc">Enjoy the 3D design experience
                     </p>
                 </div>
                 <div className="banner-inner-imgs">
