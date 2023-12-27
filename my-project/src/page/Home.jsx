@@ -37,9 +37,9 @@ function Home() {
             <div className="banner-inner-content">
                 <div className="banner-inner-text">
                     <h1 className="banner-title">Design Your Room<span>in easiest way</span></h1>
-                    <p 
+                    {/* <p 
                     className="subheading banner-desc">Enjoy the 3D design experience
-                    </p>
+                    </p> */}
                 </div>
                 <div className="banner-inner-imgs">
                 <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
@@ -53,7 +53,7 @@ function Home() {
         <div className="container">
             <div className="syllabus-inner">
                 <div className="syllabus-img">
-                    <img src={computercouch} alt=""/>
+                <Spline scene="https://prod.spline.design/tg9USse13Bidtyay/scene.splinecode" />
                 </div>
                 <div className="syllabus-steps">
                     <h2 className="section-title">Getting Started Steps</h2>
@@ -139,7 +139,7 @@ function Home() {
                     <div className="ava-circle"></div>
                     <div className="ava-dot"></div>
                 </div>
-                <h4 className="item-title">Gahad</h4>
+                <h4 className="item-title">Ghadah</h4>
                 <p className="item-p">
                     When you give up, that's when the game ends
                 </p>
@@ -150,46 +150,19 @@ function Home() {
 <footer className="footer">
     <div className="footer-follow">
         <div className="container">
-            <div className="follow-text">
-                <span className="follow-icon">
-                    <svg width="35" height="33" viewBox="0 0 35 33" fill="none"
-                        xmlns="#">
-                        <g filter="url(#filter0_f_310_4123)">
-                            <path
-                                d="M23.3077 15.7259L17.1024 22.5002L10.897 15.7259C9.6585 14.3738 9.70835 12.2947 11.0103 11.0027C12.4639 9.55999 14.8585 9.69161 16.1427 11.2848L17.1024 12.4753L18.062 11.2848C19.3463 9.69161 21.7408 9.55999 23.1945 11.0027C24.4964 12.2947 24.5462 14.3738 23.3077 15.7259Z"
-                                fill="#FFE336" 
-                                fillOpacity="0.5" />
-                        </g>
-                        <path
-                            d="M23.3077 15.7259L17.1024 22.5002L10.897 15.7259C9.6585 14.3738 9.70835 12.2947 11.0103 11.0027C12.4639 9.55999 14.8585 9.69161 16.1427 11.2848L17.1024 12.4753L18.062 11.2848C19.3463 9.69161 21.7408 9.55999 23.1945 11.0027C24.4964 12.2947 24.5462 14.3738 23.3077 15.7259Z"
-                            fill="#FFE336" />
-                        <defs>
-                            <filter 
-                            id="filter0_f_310_4123" 
-                            x="0" y="0" 
-                            width="34.2051" 
-                            height="32.5"
-                                filterUnits="userSpaceOnUse" 
-                                colorInterpolationFilters="sRGB">
-                                <feFlood 
-                                floodOpacity="0" 
-                                result="BackgroundImageFix" />
-                                <feBlend 
-                                mode="normal" 
-                                in="SourceGraphic" 
-                                in2="BackgroundImageFix"
-                                result="shape" />
-                                <feGaussianBlur 
-                                stdDeviation="5" 
-                                result="effect1_foregroundBlur_310_4123" />
-                            </filter>
-                        </defs>
-                    </svg>
-                </span>
-                <a 
-                href="https://github.com/AmalAlshehrig/Giraph" 
-                target="_blank">Like & Follow</a>
-            </div>
+        <div class="group relative">
+        <Link to={'https://github.com/AmalAlshehrig/Giraph'}>
+  <button>
+  <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" class="w-8 hover:scale-125 duration-200 hover:stroke-blue-500"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+  </button>
+  <span class="absolute -top-14 left-[50%] -translate-x-[50%] 
+  z-20 origin-left scale-0 px-3 rounded-lg border 
+  border-gray-300 bg-white py-2 text-sm font-bold
+  shadow-md transition-all duration-300 ease-in-out 
+  group-hover:scale-100">GitHub<span>
+</span></span>
+</Link>
+</div>
         </div>
     </div>
 </footer>
