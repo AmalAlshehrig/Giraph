@@ -1,23 +1,11 @@
 import React from 'react';
 import logo1 from '../assets/logo7.png';
 import Spline from '@splinetool/react-spline';
-
+import './Login.css'
 function Login() {
   return (
-    // <div
-    //   style={{
-    //     backgroundImage: `url(${logo1})`,
-    //     backgroundSize: 'cover',
-    //     backgroundPosition: 'center',
-    //     height: '100vh',
-    //     display: 'flex',
-    //     alignItems: 'center',
-    //     fontFamily:'sans-serif',
-    //    font:'',
-    //     flexDirection: 'column',
-    //   }}
-    // >
-        <div className='flex flex-col justify-center items-center bg-cover bg-no-repeat h-[100vh] bg-[url("/Users/ghadaal/Desktop/finalproject/my-project/src/assets/logo7.png")]    w-sccreen ' >
+      <div className='login-container'>  
+    <div className='flex flex-col justify-center items-center bg-cover bg-no-repeat h-[100vh] bg-[url("/Users/ghadaal/Desktop/finalproject/my-project/src/assets/logo7.png")]    w-sccreen ' >
     <div className='w-[100%] flex'>
 
         <div className='w-[50%]  h-[50rem] pt-[5rem] pb-[5rem] ml-[1rem]'>
@@ -40,7 +28,7 @@ function Login() {
 
     </div>
     </div>
-    
+    </div>
   );
 }
 
