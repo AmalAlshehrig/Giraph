@@ -11,6 +11,17 @@
 
 Whether you're a homeowner, interior designer, or simply someone with a passion for room design, our website offers a user-friendly and intuitive interface that makes the process of designing rooms enjoyable and engaging. Unleash your creativity, explore endless possibilities, and turn your dream room into a reality with our 3D room design website.
 </p>
+
+<h1>Features</h1>
+<p>
+ 1) Drag-and-Drop Interface: Users can easily drag and drop furniture and decor items onto the virtual room layout, making it intuitive and user-friendly to design and arrange the space.
+  
+2) Room Measurements: The website provides tools to input and adjust room measurements, ensuring that the virtual room accurately represents the user's real-life space.
+
+3) Mobile Compatibility: The website is optimized for mobile devices, allowing users to design and view their rooms on smartphones and tablets. This ensures flexibility and convenience for users who prefer to design on-the-go.
+
+4) Measurement and Scaling Tools: The website provides tools that enable users to accurately measure and scale their room designs. This ensures that furniture and other elements fit proportionally within the virtual space.
+</p>
 <h4> Quick note:
 that website using 3D design</h4>
 <h4>Description : </h4>
