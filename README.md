@@ -14,8 +14,9 @@ Whether you're a homeowner, interior designer, or simply someone with a passion 
 
 <h1>Features</h1>
 <p>
-  1) Drag-and-Drop Interface: Users can easily drag and drop furniture and decor items onto the virtual room layout, making it intuitive and user-friendly to design and arrange the space.
-  
+
+1)  Drag-and-Drop Interface: Users can easily drag and drop furniture and decor items onto the virtual room layout, making it intuitive and user-friendly to design and arrange the space.  
+
 2) Room Measurements: The website provides tools to input and adjust room measurements, ensuring that the virtual room accurately represents the user's real-life space.
 
 3) Mobile Compatibility: The website is optimized for mobile devices, allowing users to design and view their rooms on smartphones and tablets. This ensures flexibility and convenience for users who prefer to design on-the-go.
