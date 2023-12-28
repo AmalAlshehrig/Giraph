@@ -37,13 +37,13 @@ function Home() {
         <div className="container">
             <div className="banner-inner-content">
                 <div className="banner-inner-text">
-                <h1 className="banner-title" style={{ fontFamily: 'Signika Negative, sans-serif' }}>
+                <h1 className="banner-title text-7xl " style={{ fontFamily: 'Signika Negative, sans-serif' }}>
                     Design Your Room<span>in easiest way</span>
                   </h1>
                 </div>
-                <div className="banner-inner-imgs">
+                <div className="banner-inner-imgs w-[55rem]">
                 <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
-        </div>
+                 </div>
             </div>
         </div>
     </section>
@@ -106,6 +106,7 @@ function Home() {
             <h3 className="section-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Meet The Team</h3>
         </div>
         <div className="banner-stats b-alt">
+
 <div class=" flex min-h-screen relative items-center justify-center w-full">
   <div class="bg-[#1F8BA3] rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col w-56 hover:shadow-2xl transition-all duration-500 shadow-xl">
     <div class="text-gray-500 group-hover:scale-105 transition-all">
