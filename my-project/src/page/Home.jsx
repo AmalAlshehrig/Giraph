@@ -26,7 +26,7 @@ function Home() {
                 <div className="nav-cta">
                     <Link to={'/Signup'} className="btn-prime btn-prime-white header-cta">
                         <div className="btn-wrap"></div>
-                        <div className="btn-text">Sign In</div>
+                        <div className="btn-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Sign In</div>
                     </Link>
                 </div>
             </div>
@@ -36,7 +36,9 @@ function Home() {
         <div className="container">
             <div className="banner-inner-content">
                 <div className="banner-inner-text">
-                    <h1 className="banner-title">Design Your Room<span>in easiest way</span></h1>
+                <h1 className="banner-title" style={{ fontFamily: 'Signika Negative, sans-serif' }}>
+                    Design Your Room<span>in easiest way</span>
+                  </h1>
                     {/* <p 
                     className="subheading banner-desc">Enjoy the 3D design experience
                     </p> */}
@@ -56,15 +58,15 @@ function Home() {
                 <Spline scene="https://prod.spline.design/tg9USse13Bidtyay/scene.splinecode" />
                 </div>
                 <div className="syllabus-steps">
-                    <h2 className="section-title">Getting Started Steps</h2>
+                    <h2 className="section-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Getting Started Steps</h2>
                     <div className="syllabus-step-list">
                         <div className="syllabus-step">
                             <div className="syllabus-step-num">
                                 <img src={stepnumb01} alt="Step 1"/>
                                 <div className="syllabus-num-text">01</div>
                             </div>
-                            <h3 className="item-title">Choose Your Room Size</h3>
-                            <p className="item-p">The first step is to choose your room size from three given room sizes: large, medium and small.</p>
+                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Choose Your Room Size</h3>
+                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The first step is to choose your room size from three given room sizes: large, medium and small.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrow} loading="lazy" alt=""
                                     className="step-arrow-img"/>
@@ -73,10 +75,10 @@ function Home() {
                         <div className="syllabus-step step-alt">
                             <div className="syllabus-step-num">
                                 <img src={stepnumb02} alt="Step 2"/>
-                                <div className="syllabus-num-text">02</div>
+                                <div className="syllabus-num-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>02</div>
                             </div>
-                            <h3 className="item-title">Design Your Room</h3>
-                            <p className="item-p">The second step is to design your room by dragging and dropping a furiture into your room space.</p>
+                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Design Your Room</h3>
+                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The second step is to design your room by dragging and dropping a furiture into your room space.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrow} loading="lazy" alt=""
                                     className="step-arrow-img"/>
@@ -85,10 +87,10 @@ function Home() {
                         <div className="syllabus-step">
                             <div className="syllabus-step-num">
                                 <img src={stepnumb03} alt="Step 3"/>
-                                <div className="syllabus-num-text">03</div>
+                                <div className="syllabus-num-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>03</div>
                             </div>
-                            <h3 className="item-title">Download The File</h3>
-                            <p className="item-p">Yay, you are done, now you can download your design to view whenever you want.</p>
+                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Download The File</h3>
+                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Yay, you are done, now you can download your design to view whenever you want.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrowplane} loading="lazy" alt=""
                                     className="step-arrow-img"/>
@@ -103,7 +105,7 @@ function Home() {
 <div className="section-slide reviews">
     <div className="container">
         <div className="reviews-header">
-            <h3 className="section-title">Meet The Team</h3>
+            <h3 className="section-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Meet The Team</h3>
         </div>
         <div className="banner-stats b-alt">
             <div className="banner-stat-item">
@@ -113,8 +115,8 @@ function Home() {
                     <div className="ava-circle"></div>
                     <div className="ava-dot"></div>
                 </div>
-                <h4 className="item-title">Areej</h4>
-                <p className="item-p">
+                <h4 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Areej</h4>
+                <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>
                 Human beings are strong because we can change ourselves
                 </p>
                 <div className="reviews-dash"></div>
@@ -126,8 +128,8 @@ function Home() {
                     <div className="ava-circle"></div>
                     <div className="ava-dot"></div>
                 </div>
-                <h4 className="item-title">Amal</h4>
-                <p className="item-p">
+                <h4 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Amal</h4>
+                <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>
                     If you don't take risks, you can't craete a future!
                 </p>
                 <div className="reviews-dash"></div>
@@ -139,8 +141,8 @@ function Home() {
                     <div className="ava-circle"></div>
                     <div className="ava-dot"></div>
                 </div>
-                <h4 className="item-title">Ghadah</h4>
-                <p className="item-p">
+                <h4 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Ghadah</h4>
+                <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>
                     When you give up, that's when the game ends
                 </p>
             </div>
@@ -159,7 +161,7 @@ function Home() {
   z-20 origin-left scale-0 px-3 rounded-lg border 
   border-gray-300 bg-white py-2 text-sm font-bold
   shadow-md transition-all duration-300 ease-in-out 
-  group-hover:scale-100">GitHub<span>
+  group-hover:scale-100"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>GitHub<span>
 </span></span>
 </Link>
 </div>
