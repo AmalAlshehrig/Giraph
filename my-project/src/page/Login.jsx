@@ -1,5 +1,4 @@
 import React from 'react';
-import logo1 from '../assets/logo7.png';
 import Spline from '@splinetool/react-spline';
 import './Login.css'
 function Login() {
