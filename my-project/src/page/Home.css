@@ -625,9 +625,8 @@ p {
 }
 
 .banner-inner-content {
-  display: grid;
+  display: flex;
   align-items: center;
-  row-gap: 60px;
 }
 
 @media (min-width: 1024px) {

@@ -35,16 +35,16 @@ function Home() {
         <div className="container">
             <div className="banner-inner-content">
                 <div className="banner-inner-text">
-                <h1 className="banner-title" style={{ fontFamily: 'Signika Negative, sans-serif' }}>
+                <h1 className="banner-title text-7xl " style={{ fontFamily: 'Signika Negative, sans-serif' }}>
                     Design Your Room<span>in easiest way</span>
                   </h1>
                     {/* <p 
                     className="subheading banner-desc">Enjoy the 3D design experience
                     </p> */}
                 </div>
-                <div className="banner-inner-imgs">
+                <div className="banner-inner-imgs w-[55rem]">
                 <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
-        </div>
+                 </div>
             </div>
         </div>
     </section>
@@ -110,9 +110,6 @@ function Home() {
             <div className="banner-stat-item">
                 <div className="item-num">
                     <Spline scene='https://prod.spline.design/yr4bHEC876yLFTiU/scene.splinecode'/>
-                    <img src={spot}className="ava-spot"/>
-                    <div className="ava-circle"></div>
-                    <div className="ava-dot"></div>
                 </div>
                 <h4 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Areej</h4>
                 <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>
@@ -123,9 +120,6 @@ function Home() {
             <div className="banner-stat-item">
                 <div className="item-num">
                 <Spline scene='https://prod.spline.design/aMkDRmmbrt3ezn3W/scene.splinecode'/>
-                    <img src={spot} className="ava-spot"/>
-                    <div className="ava-circle"></div>
-                    <div className="ava-dot"></div>
                 </div>
                 <h4 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Amal</h4>
                 <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>
@@ -136,9 +130,6 @@ function Home() {
             <div className="banner-stat-item">
                 <div className="item-num">
                 <Spline scene='https://prod.spline.design/FV3hnaUzOfngqicg/scene.splinecode'/>
-                    <img src={spot} className="ava-spot"/>
-                    <div className="ava-circle"></div>
-                    <div className="ava-dot"></div>
                 </div>
                 <h4 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Ghadah</h4>
                 <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>
