@@ -12,6 +12,11 @@
 Whether you're a homeowner, interior designer, or simply someone with a passion for room design, our website offers a user-friendly and intuitive interface that makes the process of designing rooms enjoyable and engaging. Unleash your creativity, explore endless possibilities, and turn your dream room into a reality with our 3D room design website.
 </p>
 
+<h1> Technologies used</h1>
+<p>
+  Our website harnesses the power of the Spline library, allowing users to create stunning and interactive 3D room designs with smooth animations, seamless transitions, and customizable object interactions.
+</p>
+
 <h1>Features</h1>
 <p>
 
@@ -25,10 +30,14 @@ Whether you're a homeowner, interior designer, or simply someone with a passion 
 
 5) Interactive 3D Scene: Utilize the Spline library to create interactive 3D scenes where users can navigate and explore their virtual rooms in a visually engaging way. They can zoom in, rotate, and pan around the room to get a comprehensive view of the design.
 </p>
+
+
+
+
+
 <h4> Quick note:
 that website using 3D design</h4>
-<h4>Description : </h4>
-<h4>A website to design YOUR ROOM in 3D easily and at any time</h4>
+
 <h4>Work Team :</h4>
 <a href="https://github.com/kira-1997">Areej </a>
 <br>
