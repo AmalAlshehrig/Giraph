@@ -37,7 +37,7 @@ function Home() {
         <div className="container">
             <div className="banner-inner-content">
                 <div className="banner-inner-text">
-                <h1 className="banner-title text-7xl " style={{ fontFamily: 'Signika Negative, sans-serif' }}>
+                <h1 className="owText banner-title text-7xl " style={{ fontFamily: 'Signika Negative, sans-serif' }}>
                     Design Your Room<span>in easiest way</span>
                   </h1>
                 </div>
