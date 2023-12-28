@@ -22,6 +22,8 @@ Whether you're a homeowner, interior designer, or simply someone with a passion 
 3) Mobile Compatibility: The website is optimized for mobile devices, allowing users to design and view their rooms on smartphones and tablets. This ensures flexibility and convenience for users who prefer to design on-the-go.
 
 4) Measurement and Scaling Tools: The website provides tools that enable users to accurately measure and scale their room designs. This ensures that furniture and other elements fit proportionally within the virtual space.
+
+5) Interactive 3D Scene: Utilize the Spline library to create interactive 3D scenes where users can navigate and explore their virtual rooms in a visually engaging way. They can zoom in, rotate, and pan around the room to get a comprehensive view of the design.
 </p>
 <h4> Quick note:
 that website using 3D design</h4>
