@@ -11,7 +11,7 @@ function Signup() {
         style={{ fontFamily: 'Signika Negative, sans-serif' }}
       >
         <div className='w-[100%] flex'>
-          <div className='w-[50%] h-[50rem] ml-[1rem]'>
+          <div className='w-[50%] cursor-grabbing h-[50rem] ml-[1rem]'>
             <Spline scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div>
 
