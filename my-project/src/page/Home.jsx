@@ -33,26 +33,17 @@ function Home() {
             </div>
         </header>
     </div>
-    <section className="banner-inner">
-        <div className="container">
-            <div className="banner-inner-content">
-                <div className="banner-inner-text">
-                <h1 className="owText banner-title text-7xl " style={{ fontFamily: 'Signika Negative, sans-serif' }}>
-                    Design Your Room<span>in easiest way</span>
-                  </h1>
-                </div>
-                <div className="banner-inner-imgs w-[55rem]">
+    <section className="flex justify-center">
+                <div className='cursor-pointer'>
                 <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
                  </div>
-            </div>
-        </div>
     </section>
 </div>
 <section className="section-slide syllabus">
     <div className="syllabus-wrapper">
         <div className="container">
             <div className="syllabus-inner">
-                <div className="syllabus-img">
+                <div className="syllabus-img cursor-grabbing">
                 <Spline scene="https://prod.spline.design/9d2SFuH962NDp8iQ/scene.splinecode" />
                 </div>
                 <div className="syllabus-steps">
