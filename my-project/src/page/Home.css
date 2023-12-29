@@ -992,9 +992,6 @@ p {
   max-width: 800px;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 30px;
-  text-align: center;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1023,8 +1020,8 @@ p {
 }
 .services-inner {
   display: flex;
-  flex-direction: column;
-  gap: 60px;
+  flex-direction: row;
+  gap: 2rem;
 }
 @media (min-width: 1024px) {
   .services-inner {
@@ -1042,32 +1039,33 @@ p {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  min-height: 300px;
-  max-width: 500px;
+  min-height: fit-content;
+  max-width: fit-content;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 30px;
+  gap: 1.5rem;
   overflow: hidden;
   border-radius: 40px;
   --tw-bg-opacity: 1;
   background-color: rgb(248 239 229 / var(--tw-bg-opacity));
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 40px;
-  padding-bottom: 56px;
+  padding: 32px;
 }
-@media (min-width: 640px) {
+@media (max-width: 831px) {
   .service-card {
-    min-height: 400px;
+    min-height: fit-content;
+  }
+  .services-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 }
 @media (min-width: 1280px) {
   .service-card {
-    min-height: 400px;
+    min-height: fit-content;
   }
 }
 .service-card-tag {
-  margin-bottom: 16px;
+  margin-bottom: 1.5rem;
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1722,12 +1720,7 @@ footer .animate-link::after {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-@media (min-width: 1280px) {
-  .bgChooseRoom {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
