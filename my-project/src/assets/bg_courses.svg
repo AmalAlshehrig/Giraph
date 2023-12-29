@@ -2,7 +2,7 @@
 <g clip-path="url(#clip0_1599_7955)">
 <path d="M0 0L1440 0V926C1440 981.228 1395.23 1026 1340 1026L100 1026C44.7715 1026 0 981.228 0 926L0 0Z" fill="#298EA3"/>
 <g filter="url(#filter0_f_1599_7955)">
-<ellipse cx="279" cy="1432.5" rx="1028" ry="1141.5" fill="#EBC7B5"/>
+<ellipse cx="279" cy="1432.5" rx="800" ry="900" fill="#EBC7B5"/>
 </g>
 </g>
 <defs>
