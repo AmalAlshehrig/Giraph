@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Logo from '../assets/1.webp'
 function ChooseRoom() {
   return (
+
     <div className='bgChooseRoom'>
         <header className="nav-header">
             <div className="nav-logo">
@@ -25,9 +26,17 @@ function ChooseRoom() {
         </header>
          <div class="section-slide ">
             <div class="container">
+
+    <div className='bgChooseRoom flex'>
+        {/* <div className='border'>
+            <h1>Welcom Sara</h1>
+        </div> */}
+         <div class="section-slide">
+            <div class="container ">
+
                 <div class="services-header">
                     <h3 class="section-title services-title">Here you can choose the 
-                    <br></br>room size that is closest<br></br> to your room size</h3>
+                    <br></br>room size that is closest<br></br> to your room size.</h3>
                 </div>
 
                 <div class="services-inner">
@@ -36,10 +45,10 @@ function ChooseRoom() {
                             <h4 class="service-card-tag">Small</h4>
 
                             <h3 class="service-title item-title">
-                            Your room is approximately 1.22 meters long and 
-                            approximately 1.52 meters wide. You can use these 
+                            Your room is 1.22 meters long and 
+                             1.52 meters wide. You can use these 
                             measurements to plan and design the interior 
-                            decoration of the room</h3>
+                            decoration of the room.</h3>
                         </div>
 
                         <a href="#" class="service-read-more">Choose</a>
@@ -59,10 +68,10 @@ function ChooseRoom() {
                             <h4 class="service-card-tag">Medium</h4>
 
                             <h3 class="service-title item-title">
-                            Your room has a length of about 1.52 meters and a 
-                            width of about 1.52 meters as well. I can use these 
-                            measurements to plan and design the interior 
-                            decoration of the room
+                            Your room is 1.52 meters long and  1.52 meters wide.
+                            You can use these measurements to
+                            plan and design the interior 
+                            decoration of the room.
                             </h3>
                         </div>
 
@@ -85,10 +94,10 @@ function ChooseRoom() {
                             <h4 class="service-card-tag">large</h4>
 
                             <h3 class="service-title item-title">
-                            Your room is approximately 1.52 meters long and 1.83 
-                            meters wide. I can use these measurements to 
+                            Your room is 1.52 meters long and 1.83 
+                            meters wide. You can use these measurements to 
                             plan and design the interior 
-                            decoration of the room
+                            decoration of the room.
                             </h3>
                         </div>
 

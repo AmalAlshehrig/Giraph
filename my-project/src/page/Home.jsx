@@ -33,6 +33,7 @@ function Home() {
             </div>
         </header>
     </div>
+
     <section className="banner-inner">
         <div className="container">
             <div className="banner-inner-content">
@@ -42,17 +43,19 @@ function Home() {
                   </h1>
                 </div> */}
                 <div className="banner-inner-imgs w-[55rem]">
+
+    <section className="flex justify-center">
+                <div className='cursor-pointer'>
+
                 <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
                  </div>
-            </div>
-        </div>
     </section>
 </div>
 <section className="section-slide syllabus">
     <div className="syllabus-wrapper">
         <div className="container">
             <div className="syllabus-inner">
-                <div className="syllabus-img">
+                <div className="syllabus-img cursor-grabbing">
                 <Spline scene="https://prod.spline.design/9d2SFuH962NDp8iQ/scene.splinecode" />
                 </div>
                 <div className="syllabus-steps">
@@ -109,7 +112,7 @@ function Home() {
 
 <div class=" flex min-h-screen relative items-center justify-center w-full">
   <div class="bg-[#1F8BA3] rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col w-56 hover:shadow-2xl transition-all duration-500 shadow-xl">
-    <div class="text-gray-500 group-hover:scale-105 transition-all">
+    <div class="text-gray-500 cursor-pointer group-hover:scale-105 transition-all">
           <Spline scene="https://prod.spline.design/yr4bHEC876yLFTiU/scene.splinecode" />
     </div>
     <div class="group-hover:pb-10 transition-all duration-500 delay-200">
@@ -118,7 +121,7 @@ function Home() {
       >Areej</h1>
       <p class="text-[#F7ECE4] text-sm"
       style={{ fontFamily: 'Signika Negative, sans-serif' }}
-      >kira1997hiro@gmail.com</p>
+      >arooji25@live.com</p>
     </div>
     <div 
     class="flex items-center transition-all duration-500 delay-200 group-hover:bottom-3 -bottom-full absolute gap-2 justify-evenly w-full bg-[#1F8BA3]">
@@ -152,7 +155,7 @@ function Home() {
 {/* الشخص التالي */}
 <div class=" flex min-h-screen relative items-center justify-center w-full">
   <div class="bg-[#1F8BA3] rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col w-56 hover:shadow-2xl transition-all duration-500 shadow-xl">
-    <div class="text-gray-500 group-hover:scale-105 transition-all">
+    <div class="text-gray-500 cursor-pointer group-hover:scale-105 transition-all">
     <Spline scene="https://prod.spline.design/aMkDRmmbrt3ezn3W/scene.splinecode" />
     </div>
     <div class="group-hover:pb-10 transition-all duration-500 delay-200">
@@ -195,7 +198,7 @@ function Home() {
 {/* الشخص التالي */}
 <div class=" flex min-h-screen relative items-center justify-center w-full">
   <div class="bg-[#1F8BA3] rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col w-56 hover:shadow-2xl transition-all duration-500 shadow-xl">
-    <div class="text-gray-500 group-hover:scale-105 transition-all">
+    <div class="text-gray-500 cursor-pointer group-hover:scale-105 transition-all">
     <Spline scene="https://prod.spline.design/FV3hnaUzOfngqicg/scene.splinecode" />
     </div>
     <div class="group-hover:pb-10 transition-all duration-500 delay-200">
