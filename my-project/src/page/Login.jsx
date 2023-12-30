@@ -119,6 +119,8 @@ window.location.reload(false);
         </div>
       </div>
     </div>
+    </div>
+    </div>
   );
 }
 
