@@ -58,11 +58,11 @@ function Signup() {
         style={{ fontFamily: 'Signika Negative, sans-serif' }}
       >
         <div className='w-[100%] flex'>
-          <div className='w-[50%] h-[50rem] ml-[25rem]'>
+          <div className='w-[50%] h-[50rem] mt-[6rem]'>
           <Spline scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div>
 
-          <div className='w-[70%] h-[48rem] p-[10rem] flex flex-col justify-around'>
+          <div className='w-[50%] h-[48rem] p-[10rem] flex flex-col justify-around'>
             <p className='font-bold text-6xl text-center   text-[white]'>Sign Up</p>
             <div className='flex  mt-1 items-center justify-center'>
               <div className='relative form-control'>
