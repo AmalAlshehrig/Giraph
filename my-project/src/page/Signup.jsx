@@ -1,74 +1,147 @@
 import React from 'react';
 import Spline from '@splinetool/react-spline';
-import { Link } from 'react-router-dom';
 import './Login.css';
 
+import { useState } from 'react'
+import axios from 'axios'
+import { Link, Navigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
+
 function Signup() {
+    const navigate = useNavigate()
+    const [userName, setuserName] = useState('')
+    const [password, setpassword] = useState('')
+    const [email, setemail] = useState('')
+   
+    const [nameMessage, setnameMessage] = useState('')
+    const [emailMessage, setemailMessage] = useState('')
+    const [passwordMessage, setpasswordMessage] = useState('')
+   
+    const [emptyFieldsMsg, setemptyFieldsMsg] = useState('')
+    const registerBtn = () => {
+        if (userName === "" || password === "" || email === "")
+        {
+         setemptyFieldsMsg("please fill the empty fields")
+        }
+        else if  (userName.length < 4)
+        {
+            setnameMessage("the name should be more than 4 chhatarctes ")
+        }
+        else if (password.length<6) {
+            setpasswordMessage("thhe password should be more than 6 charaters")
+
+        }
+        else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+            setemailMessage("please enter the valid email")
+
+        }
+        else {
+            axios.post("https://657dbe8d3e3f5b189463109e.mockapi.io/register",{
+                userName:userName,
+                email:email,
+                password:password,
+              
+
+            })
+            .then(function(response){
+                console.log(response);
+                navigate("/Login")
+
+            })
+        }
+
+       }
   return (
     <div className='login-container'>
       <div
-        className='flex flex-col justify-center items-center bg-cover bg-no-repeat h-[100vh] bg-[url("/Users/ghadaal/Desktop/finalproject/my-project/src/assets/logo7.png")] w-sccreen'
+        className='flex flex-col justify-center items-center bg-cover bg-no-repeat h-[100vh] bg-[url("/Users/ghadaal/Desktop/finalproject/my-project/src/assets/logo7.png")] w-screen'
         style={{ fontFamily: 'Signika Negative, sans-serif' }}
       >
         <div className='w-[100%] flex'>
-          <div className='w-[50%] h-[50rem] ml-[1rem]'>
-            <Spline scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
+          <div className='w-[50%] h-[50rem] ml-[25rem]'>
+          <Spline scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div>
 
-          <div className='w-[50%] h-[48rem] p-[10rem] flex flex-col justify-around'>
-            <p className='font-bold text-4xl pl-[6rem] text-[white]'>Sign Up</p>
-            <div class='flex items-center justify-center'>
-              <div class='relative'>
+          <div className='w-[70%] h-[48rem] p-[10rem] flex flex-col justify-around'>
+            <p className='font-bold text-6xl text-center   text-[white]'>Sign Up</p>
+            <div className='flex  mt-1 items-center justify-center'>
+              <div className='relative form-control'>
                 <input
                   id='username'
                   name='username'
                   type='text'
-                  class='border-b border-gray-300 py-1 focus:border-b-2 focus:border-[#f7eee4] transition-colors focus:outline-none peer bg-inherit'
+                  className='border-b border-gray-300 py-1 focus:border-b-2 focus:border-[#f7eee4] transition-colors focus:outline-none peer bg-inherit'
+                  required
+                  value={userName} onChange={(e)=>setuserName(e.target.value)}
                 />
-                <label
-                  for='username'
-                  class='text-[#f7eee4] absolute left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-[#f7eee4]'
-                >
-                  Name
+                <label htmlFor='username' className='form-label'>
+                  <span style={{ transitionDelay: '0ms' }}>U</span>
+                  <span style={{ transitionDelay: '50ms' }}>s</span>
+                  <span style={{ transitionDelay: '100ms' }}>e</span>
+                  <span style={{ transitionDelay: '150ms' }}>r</span>
+                  <span style={{ transitionDelay: '200ms' }}>n</span>
+                  <span style={{ transitionDelay: '250ms' }}>a</span>
+                  <span style={{ transitionDelay: '300ms' }}>m</span>
+                  <span style={{ transitionDelay: '350ms' }}>e</span>
                 </label>
               </div>
             </div>
-            <div class='flex items-center justify-center'>
-              <div class='relative'>
+            <div className='flex items-center justify-center'>
+              <div className='relative form-control'>
                 <input
                   id='Email'
                   name='Email'
                   type='text'
-                  class='border-b border-gray-300 py-1 focus:border-b-2 focus:border-[#f7eee4] transition-colors focus:outline-none peer bg-inherit'
+                  className='border-b border-gray-300 py-1 focus:border-b-2 focus:border-[#f7eee4] transition-colors focus:outline-none peer bg-inherit'
+                  required
+                  value={email} onChange={(e)=> setemail(e.target.value)}
                 />
-                <label
-                  for='Email'
-                  class='text-[#f7eee4] absolute left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-[#f7eee4]'
-                >
-                  Email
+                <label htmlFor='Email' className='form-label'>
+                  <span style={{ transitionDelay: '0ms' }}>E</span>
+                  <span style={{ transitionDelay: '50ms' }}>m</span>
+                  <span style={{ transitionDelay: '100ms' }}>a</span>
+                  <span style={{ transitionDelay: '150ms' }}>i</span>
+                  <span style={{ transitionDelay: '200ms' }}>l</span>
                 </label>
               </div>
             </div>
-            <div class='flex items-center justify-center'>
-              <div class='relative'>
+            <div className='flex items-center justify-center'>
+              <div className='relative form-control'>
                 <input
                   id='Password'
                   name='Password'
                   type='password'
-                  class='border-b border-gray-300 py-1 focus:border-b-2 focus:border-[#f7eee4] transition-colors focus:outline-none peer bg-inherit'
+                  className='border-b border-gray-300 py-1 focus:border-b-2 focus:border-[#f7eee4] transition-colors focus:outline-none peer bg-inherit'
+                  required
+                  value={password} onChange={(e)=>setpassword(e.target.value)}
                 />
-                <label
-                  for='Password'
-                  class='text-[#f7eee4] absolute left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-[#f7eee4]'
-                >
-                  Password
+                <label htmlFor='Password' className='form-label'>
+                  <span style={{ transitionDelay: '0ms' }}>P</span>
+                  <span style={{ transitionDelay: '50ms' }}>a</span>
+                  <span style={{ transitionDelay: '100ms' }}>s</span>
+                  <span style={{ transitionDelay: '150ms' }}>s</span>
+                  <span style={{ transitionDelay: '200ms' }}>w</span>
+                  <span style={{ transitionDelay: '250ms' }}>o</span>
+                  <span style={{ transitionDelay: '300ms' }}>r</span>
+                  <span style={{ transitionDelay: '350ms' }}>d</span>
                 </label>
+                <button 
+                    style={{ fontFamily: 'Signika Negative, sans-serif' }}
+                    onClick={registerBtn}
+                    class="relative text-1xl h-[2.5rem]  w-[100%] mt-[4rem] mr-[4rem] py-2 px-8 text-black  font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#EBC7B5] before:to-[#EBC7B5] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
+                     Sign Up
+                    </button>
               </div>
             </div>
-            <div className='flex justify-around'>
-              <p className='text-[white] text-1.5xl'>Do you have an account?</p>
+            <div className='flex flex-col '>
+              <p className='text-[white] text-center text-1xl mb-[2.5rem]'>Do you have an account?</p>
               <Link to='/Login'>
-                <button className='h-[2rem] w-[5rem] bg-[#F7EEE4] rounded-md'>Login</button>
+              <button 
+                    style={{ fontFamily: 'Signika Negative, sans-serif' }}
+                  
+                    class="relative mr-[4rem]  h-[2.5rem] w-[100%] py-2 px-8 text-black text-1xl  font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#EBC7B5] before:to-[#EBC7B5] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
+                     Login
+                    </button>
               </Link>
             </div>
           </div>
