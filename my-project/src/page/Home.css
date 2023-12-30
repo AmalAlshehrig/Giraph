@@ -418,7 +418,7 @@ p {
 .item-title {
   margin-bottom: 1rem;
   font-family: filson-pro, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: -.01em;
@@ -489,7 +489,7 @@ p {
   height: 100%;
   border-bottom-right-radius: 100px;
   border-bottom-left-radius: 100px;
-  padding-top: 200px;
+  /* padding-top: 200px; */
   padding-bottom: 200px;
   padding-left: 20px;
   padding-right: 20px;
@@ -516,6 +516,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-right: 30px;
+  padding-right: 30px;
   padding-top: 30px;
 }
 
@@ -1029,11 +1031,15 @@ p {
 @media (min-width: 1024px) {
   .services-inner {
     gap: 32px;
+    display: flex;
+    flex-direction: row;
   }
 }
 @media (min-width: 1280px) {
   .services-inner {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: flex;
+    flex-direction: row;
   }
 }
 .service-card {
@@ -1722,12 +1728,12 @@ footer .animate-link::after {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   padding-bottom: 100px;
 }
 @media (min-width: 1280px) {
   .bgChooseRoom {
-    padding-top: 200px;
+    /* padding-top: 200px; */
     padding-bottom: 200px;
   }
 }
