@@ -52,8 +52,13 @@ window.location.reload(false);
         className='flex flex-col justify-center items-center bg-cover bg-no-repeat h-screen w-screen'
         style={{ fontFamily: 'Signika Negative, sans-serif' }}
       >
-        <div className='w-full flex'>
-          <div className='w-1/2 h-screen pt-20 pb-20'>
+
+//         <div className='w-full flex'>
+//           <div className='w-1/2 h-screen pt-20 pb-20'>
+
+        <div className='w-[100%] flex'>
+          <div className='w-[50%] cursor-grabbing h-[50rem] pt-[5rem] pb-[5rem] ml-[1rem]'>
+
             <Spline scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div>
           <div className='w-1/2 h-screen p-20 flex flex-col justify-around'>

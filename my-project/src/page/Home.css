@@ -526,7 +526,6 @@ p {
 }
 @media (min-width: 1024px) {
   .nav-header {
-    margin-bottom: 120px;
     padding-top: 40px;
   }
 }
@@ -619,21 +618,18 @@ p {
 
 @media (min-width: 1024px) {
   .banner {
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
   }
 }
 
 .banner-inner-content {
   display: flex;
-  align-items: center;
 }
 
 @media (min-width: 1024px) {
   .banner-inner-content {
-    margin-bottom: 65px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 20px;
   }
 }
 
@@ -855,7 +851,7 @@ p {
 .syllabus-img {
   margin-left: auto;
   margin-right: auto;
-  max-width: 602px;
+  max-width: 902px;
 }
 @media (min-width: 1280px) {
   .syllabus-img {
@@ -974,7 +970,7 @@ p {
   width: 148px;
 }
 .services {
-  border-radius: 50px;
+  border-radius: 20px;
   background-image: url('../assets/bg_courses.svg');
   background-size: cover;
   background-position: center;
@@ -996,9 +992,6 @@ p {
   max-width: 800px;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 30px;
-  text-align: center;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1026,8 +1019,9 @@ p {
   opacity: 0.7;
 }
 .services-inner {
-  display: grid;
-  gap: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 @media (min-width: 1024px) {
   .services-inner {
@@ -1045,33 +1039,33 @@ p {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  min-height: 300px;
-  max-width: 500px;
+  min-height: fit-content;
+  max-width: fit-content;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 30px;
+  gap: 1.5rem;
   overflow: hidden;
   border-radius: 40px;
   --tw-bg-opacity: 1;
   background-color: rgb(248 239 229 / var(--tw-bg-opacity));
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 40px;
-  padding-bottom: 56px;
+  padding: 32px;
 }
-@media (min-width: 640px) {
+@media (max-width: 831px) {
   .service-card {
-    min-height: 400px;
+    min-height: fit-content;
+  }
+  .services-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 }
 @media (min-width: 1280px) {
   .service-card {
-    min-height: 500px;
-    max-width: 100%;
+    min-height: fit-content;
   }
 }
 .service-card-tag {
-  margin-bottom: 16px;
+  margin-bottom: 1.5rem;
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1690,4 +1684,43 @@ footer .animate-link::after {
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+
+.owText{
+    text-transform:uppercase;
+    color: #4f94b2;
+    font-size: 14vw;
+    letter-spacing: 1.2vw;
+    font-weight:600;
+    text-shadow: 
+    -1px -1px 1px #efede3, 
+    0px 1px 0 #2e2e2e, 
+    0px 2px 0 #2c2c2c, 
+    0px 3px 0 #2a2a2a, 
+    0px 4px 0 #282828, 
+    0px 5px 0 #262626, 
+    0px 6px 0 #242424, 
+    0px 7px 0 #222, 
+    0px 8px 0 #202020, 
+    0px 9px 0 #1e1e1e, 
+    0px 10px 0 #1c1c1c, 
+    0px 11px 0 #1a1a1a, 
+    0px 12px 0 #181818, 
+    0px 13px 0 #161616, 
+    0px 14px 0 #141414, 
+    0px 15px 0 #121212,
+    2px 20px 5px rgba(0, 0, 0, 0.9),
+    5px 23px 5px rgba(0, 0, 0, 0.3),
+    8px 27px 8px rgba(0, 0, 0, 0.5),
+    8px 28px 35px rgba(0, 0, 0, 0.9);
+}
+.bgChooseRoom{
+  background-image: url('../assets/bg_courses.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
