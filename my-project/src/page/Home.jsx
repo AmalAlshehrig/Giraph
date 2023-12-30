@@ -44,13 +44,16 @@ function Home() {
                 </div> */}
                 <div className="banner-inner-imgs w-[55rem]">
 
-    <section className="flex justify-center">
+    {/* <section className="flex justify-center"> */}
                 <div className='cursor-pointer'>
 
                 <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
                  </div>
+                 </div>
+                 </div>
+                 </div>
     </section>
-</div>
+    </div>
 <section className="section-slide syllabus">
     <div className="syllabus-wrapper">
         <div className="container">
@@ -260,10 +263,6 @@ function Home() {
         </div>
     </div>
 </footer>
-</div>
-</div>
-</section>
-</div>
 </main>
     </>
   )
