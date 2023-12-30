@@ -260,6 +260,10 @@ function Home() {
         </div>
     </div>
 </footer>
+</div>
+</div>
+</section>
+</div>
 </main>
     </>
   )

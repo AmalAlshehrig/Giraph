@@ -27,7 +27,7 @@ function ChooseRoom() {
          <div class="section-slide ">
             <div class="container">
 
-    <div className='bgChooseRoom flex'>
+    <div>
         {/* <div className='border'>
             <h1>Welcom Sara</h1>
         </div> */}
@@ -117,6 +117,9 @@ function ChooseRoom() {
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    </div>
     </div>
   )
 }
