@@ -105,7 +105,7 @@ function Home() {
         </div>
         <div className="banner-stats b-alt">
 
-<div class=" flex min-h-screen relative items-center justify-center w-full">
+<div class=" flex mb-8 relative items-center justify-center w-full">
   <div class="bg-[#1F8BA3] rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col w-56 hover:shadow-2xl transition-all duration-500 shadow-xl">
     <div class="text-gray-500 cursor-pointer group-hover:scale-105 transition-all">
           <Spline scene="https://prod.spline.design/yr4bHEC876yLFTiU/scene.splinecode" />
@@ -148,7 +148,7 @@ function Home() {
   </div>
 </div>
 {/* الشخص التالي */}
-<div class=" flex min-h-screen relative items-center justify-center w-full">
+<div class=" flex mb-8 relative items-center justify-center w-full">
   <div class="bg-[#1F8BA3] rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col w-56 hover:shadow-2xl transition-all duration-500 shadow-xl">
     <div class="text-gray-500 cursor-pointer group-hover:scale-105 transition-all">
     <Spline scene="https://prod.spline.design/aMkDRmmbrt3ezn3W/scene.splinecode" />
@@ -191,7 +191,7 @@ function Home() {
   </div>
 </div>
 {/* الشخص التالي */}
-<div class=" flex min-h-screen relative items-center justify-center w-full">
+<div class=" flex min-h-12 relative items-center justify-center w-full">
   <div class="bg-[#1F8BA3] rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col w-56 hover:shadow-2xl transition-all duration-500 shadow-xl">
     <div class="text-gray-500 cursor-pointer group-hover:scale-105 transition-all">
     <Spline scene="https://prod.spline.design/FV3hnaUzOfngqicg/scene.splinecode" />

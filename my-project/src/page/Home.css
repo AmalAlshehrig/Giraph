@@ -781,7 +781,7 @@ p {
   .banner-stats {
     display: flex;
     max-width: 100%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* -moz-column-gap: 70px;
          column-gap: 70px; */
   }

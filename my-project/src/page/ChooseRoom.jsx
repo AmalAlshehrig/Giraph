@@ -34,11 +34,10 @@ function ChooseRoom() {
         <div 
         style={{ fontFamily: 'Signika Negative, sans-serif' }}
         className='border items-center w-44 py-2 px-8 bg-[#F7ECE4] mt-4 rounded-lg'>
-            <Link to={'/Profile'}>
-        <MDBDropdownItem link>Profile</MDBDropdownItem>
-        </Link>
+        <MDBDropdownItem link>User Name : {userName}</MDBDropdownItem>
+        <MDBDropdownItem link>Email : {userName}</MDBDropdownItem>
         <Link to={'/'}>
-        <MDBDropdownItem link>Logout</MDBDropdownItem>
+        <MDBDropdownItem link className='font-bold hover:text-red-800'>Logout</MDBDropdownItem>
         </Link>
         </div>
       </MDBDropdownMenu>
