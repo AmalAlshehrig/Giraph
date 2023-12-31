@@ -6,6 +6,7 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import './Login.css';
 
 function Login() {
   const [userName, setuserName] = useState('')
@@ -47,22 +48,23 @@ window.location.reload(false);
 
 }
   return (
-    <div className='login-container'>
+    
       <div
-        className='flex flex-col justify-center items-center bg-cover bg-no-repeat h-screen w-screen'
+        className='login-container bg-cover bg-no-repeat'
         style={{ fontFamily: 'Signika Negative, sans-serif' }}
       >
-
-//         <div className='w-full flex'>
-//           <div className='w-1/2 h-screen pt-20 pb-20'>
-
-        <div className='w-[100%] flex'>
-          <div className='w-[50%] cursor-grabbing h-[50rem] pt-[5rem] pb-[5rem] ml-[1rem]'>
-
-            <Spline scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
+        
+          <div >
+            <div className='desktop'>
+           
+            <Spline   scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div>
-          <div className='w-1/2 h-screen p-20 flex flex-col justify-around'>
-            <p className='font-bold text-4xl pl-24 text-white'>Login</p>
+          <div className='mobile'>
+          <Spline scene="https://prod.spline.design/MydqBB4lN-zS7SV0/scene.splinecode" />
+          </div>
+          </div>
+          <div className='login'>
+            <p className='font-bold text-4xl text-center text-white'>Login</p>
             <div className='flex items-center justify-center'>
               <div className='relative form-control'>
                 <input
@@ -111,16 +113,21 @@ window.location.reload(false);
             <button 
                     style={{ fontFamily: 'Signika Negative, sans-serif' }}
                     onClick={logBtn}
-                    class="relative py-2 px-8 text-black text-base font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#EBC7B5] before:to-[#EBC7B5] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
+                    className=" btn relative  py-2 px-8 text-black text-base font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#EBC7B5] before:to-[#EBC7B5] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
                      Login
                     </button>
             </div>
           </div>
         </div>
+
+     
+    
+
       </div>
     </div>
     </div>
     </div>
+
   );
 }
 

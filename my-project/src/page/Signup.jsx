@@ -52,23 +52,28 @@ function Signup() {
 
        }
   return (
-    <div className='login-container'>
+    <div className='login-container  '>
       <div
-        className='flex flex-col justify-center items-center bg-cover bg-no-repeat h-[100vh] bg-[url("/Users/ghadaal/Desktop/finalproject/my-project/src/assets/logo7.png")] w-screen'
+        className='flex flex-col justify-center items-center bg-cover bg-no-repeat h-[100vh]  w-screen'
         style={{ fontFamily: 'Signika Negative, sans-serif' }}
       >
-        <div className='w-[100%] flex'>
-
-//           <div className='w-[50%] h-[50rem] mt-[6rem]'>
-//           <Spline scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
-
-          <div className='w-[50%] cursor-grabbing h-[50rem] ml-[1rem]'>
-            <Spline scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
-
+        <div className='w-[100%] flex login1  border border-l-orange-500 '>
+          {/* <div className='three w-[50%] h-[50rem] mt-[6rem]'>
+          <Spline  scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
+          </div> */}
+          <div className=' border border-orange-800 mt-[5rem] split' >
+            <div className='desktop'>
+           
+            <Spline   scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
+          </div>
+          <div className='mobile split1'>
+          <Spline scene="https://prod.spline.design/MydqBB4lN-zS7SV0/scene.splinecode" />
+          </div>
           </div>
 
-          <div className='w-[50%] h-[48rem] p-[10rem] flex flex-col justify-around'>
-            <p className='font-bold text-6xl text-center   text-[white]'>Sign Up</p>
+
+          <div className='login w-[50%]  border border-lime-400 h-[48rem] p-[10rem] flex flex-col justify-around'>
+            <p className='font-bold text-6xl text-center max-sm:text-5xl  text-[white]'>SignUp</p>
             <div className='flex  mt-1 items-center justify-center'>
               <div className='relative form-control'>
                 <input
@@ -139,15 +144,15 @@ function Signup() {
               </div>
             </div>
             <div className='flex flex-col '>
-              <p className='text-[white] text-center text-1xl mb-[2.5rem]'>Do you have an account?</p>
-              <Link to='/Login'>
+              <p className='text-[white] text-center text-1xl mb-[2.5rem] max-sm:w-80'>Do you have an account? <Link to="/Login" className='underline'>Login</Link></p>
+              {/* <Link to='/Login'>
               <button 
                     style={{ fontFamily: 'Signika Negative, sans-serif' }}
                   
-                    class="relative mr-[4rem]  h-[2.5rem] w-[100%] py-2 px-8 text-black text-1xl  font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#EBC7B5] before:to-[#EBC7B5] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
+                    class="relative  login-desktop login-mobile h-[2.5rem]  py-2 px-8 text-black text-1xl  font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#EBC7B5] before:to-[#EBC7B5] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
                      Login
                     </button>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
