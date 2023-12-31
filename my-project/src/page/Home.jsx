@@ -34,19 +34,11 @@ function Home() {
         </header>
     </div>
 
-    <section className="banner-inner">
+    <section className="banner-inner items-center">
         <div className="container">
             <div className="banner-inner-content">
-                {/* <div className="banner-inner-text">
-                <h1 className="owText banner-title text-7xl " style={{ fontFamily: 'Signika Negative, sans-serif' }}>
-                    Design Your Room<span>in easiest way</span>
-                  </h1>
-                </div> */}
                 <div className="banner-inner-imgs w-[55rem]">
-
-    {/* <section className="flex justify-center"> */}
                 <div className='cursor-pointer'>
-
                 <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
                  </div>
                  </div>
@@ -69,8 +61,8 @@ function Home() {
                                 <img src={stepnumb01} alt="Step 1"/>
                                 <div className="syllabus-num-text">01</div>
                             </div>
-                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Choose Your Room Size</h3>
-                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The first step is to choose your room size from three given room sizes: large, medium and small.</p>
+                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Sign Up</h3>
+                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The first step is to make account for new user or make login.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrow} loading="lazy" alt=""
                                     className="step-arrow-img"/>
@@ -81,8 +73,8 @@ function Home() {
                                 <img src={stepnumb02} alt="Step 2"/>
                                 <div className="syllabus-num-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>02</div>
                             </div>
-                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Design Your Room</h3>
-                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The second step is to design your room by dragging and dropping a furiture into your room space.</p>
+                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Choose Your Room Size</h3>
+                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The second step is to choose your room size from three given room sizes: large, medium and small.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrow} loading="lazy" alt=""
                                     className="step-arrow-img"/>
@@ -93,8 +85,8 @@ function Home() {
                                 <img src={stepnumb03} alt="Step 3"/>
                                 <div className="syllabus-num-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>03</div>
                             </div>
-                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Download The File</h3>
-                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Yay, you are done, now you can download your design to view whenever you want.</p>
+                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Design Your Room</h3>
+                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The last step is to design your room by dragging and dropping a furiture into your room space.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrowplane} loading="lazy" alt=""
                                     className="step-arrow-img"/>
