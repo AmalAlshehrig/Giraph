@@ -3,8 +3,24 @@ import './Home.css'
 import { Link } from 'react-router-dom'
 import Logo from '../assets/1.webp'
 import { MDBDropdown, MDBDropdownMenu, MDBDropdownToggle, MDBDropdownItem } from 'mdb-react-ui-kit';
+import axios from 'axios';
+import { useEffect } from 'react';
+import { useState } from 'react';
 function ChooseRoom() {
-    const userName='Amal'
+    const userName = localStorage.getItem('userName');
+const iduser = localStorage.getItem('id');
+const [info, setInfo] = useState({});
+
+useEffect(() => {
+    axios.get(`https://657dbe8d3e3f5b189463109e.mockapi.io/register/${iduser}`)
+        .then((response) => {
+            console.log(response);
+            setInfo(response.data);
+        })
+        .catch((error) => {
+            console.error(`Error fetching data for user with id ${iduser}:`, error);
+        });
+}, [iduser]);
   return (
 
     <div className='bgChooseRoom'>
@@ -33,9 +49,9 @@ function ChooseRoom() {
       <MDBDropdownMenu>
         <div 
         style={{ fontFamily: 'Signika Negative, sans-serif' }}
-        className='border items-center w-44 py-2 px-8 bg-[#F7ECE4] mt-4 rounded-lg'>
-        <MDBDropdownItem link>User Name : {userName}</MDBDropdownItem>
-        <MDBDropdownItem link>Email : {userName}</MDBDropdownItem>
+        className='border items-center w-full py-2 px-8 bg-[#F7ECE4] mt-4 rounded-lg text-sm'>
+        <MDBDropdownItem link>Name:{info.userName}</MDBDropdownItem>
+        <MDBDropdownItem link>Email:{info.email}</MDBDropdownItem>
         <Link to={'/'}>
         <MDBDropdownItem link className='font-bold hover:text-red-800'>Logout</MDBDropdownItem>
         </Link>

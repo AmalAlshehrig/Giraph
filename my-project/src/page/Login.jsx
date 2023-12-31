@@ -34,7 +34,7 @@ else {
 
     const user = info.find((item => item.userName === userName && item.password === password))
     if(user) {
-    navigate("/")
+    navigate("/ChooseRoom")
 localStorage.setItem("userName", user.userName)
 
 localStorage.setItem("id", user.id)
