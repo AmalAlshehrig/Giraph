@@ -620,8 +620,8 @@ p {
 
 @media (min-width: 1024px) {
   .banner {
-    border-bottom-right-radius: 60px;
-    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
   }
 }
 
