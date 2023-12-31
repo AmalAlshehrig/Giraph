@@ -24,21 +24,28 @@ function Home() {
                 <div className="nav-cta">
                     <Link to={'/Signup'}>
                     <button 
-                    style={{ fontFamily: 'Signika Negative, sans-serif' }}
-                    class="relative py-2 px-8 text-black text-base font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#1F8BA3] before:to-[#1F8BA3] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
-                     Signup
+                   style={{ fontFamily: 'Signika Negative, sans-serif' }}
+                   class="relative py-2 px-8 text-black text-base font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#EBC7B5] before:to-[#EBC7B5] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
+                    Signup
                     </button>
                     </Link>
                 </div>
             </div>
         </header>
     </div>
-    <section className="flex justify-center">
+
+    <section className="banner-inner items-center">
+        <div className="container">
+            <div className="banner-inner-content">
+                <div className="banner-inner-imgs w-[55rem]">
                 <div className='cursor-pointer'>
                 <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
                  </div>
+                 </div>
+                 </div>
+                 </div>
     </section>
-</div>
+    </div>
 <section className="section-slide syllabus">
     <div className="syllabus-wrapper">
         <div className="container">
@@ -54,8 +61,8 @@ function Home() {
                                 <img src={stepnumb01} alt="Step 1"/>
                                 <div className="syllabus-num-text">01</div>
                             </div>
-                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Choose Your Room Size</h3>
-                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The first step is to choose your room size from three given room sizes: large, medium and small.</p>
+                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Sign Up</h3>
+                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The first step is to make account for new user or make login.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrow} loading="lazy" alt=""
                                     className="step-arrow-img"/>
@@ -66,8 +73,8 @@ function Home() {
                                 <img src={stepnumb02} alt="Step 2"/>
                                 <div className="syllabus-num-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>02</div>
                             </div>
-                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Design Your Room</h3>
-                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The second step is to design your room by dragging and dropping a furiture into your room space.</p>
+                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Choose Your Room Size</h3>
+                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The second step is to choose your room size from three given room sizes: large, medium and small.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrow} loading="lazy" alt=""
                                     className="step-arrow-img"/>
@@ -78,8 +85,8 @@ function Home() {
                                 <img src={stepnumb03} alt="Step 3"/>
                                 <div className="syllabus-num-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>03</div>
                             </div>
-                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Download The File</h3>
-                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Yay, you are done, now you can download your design to view whenever you want.</p>
+                            <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Design Your Room</h3>
+                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The last step is to design your room by dragging and dropping a furiture into your room space.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrowplane} loading="lazy" alt=""
                                     className="step-arrow-img"/>

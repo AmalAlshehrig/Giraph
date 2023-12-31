@@ -1,13 +1,65 @@
 import React from 'react'
 import './Home.css'
+import { Link } from 'react-router-dom'
+import Logo from '../assets/1.webp'
+import { MDBDropdown, MDBDropdownMenu, MDBDropdownToggle, MDBDropdownItem } from 'mdb-react-ui-kit';
 function ChooseRoom() {
+    const userName='Amal'
   return (
-    <div className='bgChooseRoom flex'>
+
+    <div className='bgChooseRoom'>
+        <header className="nav-header">
+            <div className="nav-logo">
+                <a href="/">
+                <img src={Logo}/>
+                </a>
+            </div>
+            <div className="nav-right">
+                <div className="nav-cta">
+                    {/* <button 
+                    style={{ fontFamily: 'Signika Negative, sans-serif' }}
+                    class="relative py-2 px-8 text-black text-base font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#1F8BA3] before:to-[#1F8BA3] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
+                     Welcome {userName} 👋
+                    </button> */}
+                    <div className="nav-right">
+                <div className="nav-cta">
+                     <MDBDropdown>
+                     <div className='flex flex-col text-center'>
+      <MDBDropdownToggle tag='a' className='btn btn-primary'
+      style={{ fontFamily: 'Signika Negative, sans-serif' }}
+      class="relative py-2 px-8 text-black text-base font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#EBC7B5] before:to-[#EBC7B5] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
+      Welcome {userName} 👋
+      </MDBDropdownToggle>
+      <MDBDropdownMenu>
+        <div 
+        style={{ fontFamily: 'Signika Negative, sans-serif' }}
+        className='border items-center w-44 py-2 px-8 bg-[#F7ECE4] mt-4 rounded-lg'>
+            <Link to={'/Profile'}>
+        <MDBDropdownItem link>Profile</MDBDropdownItem>
+        </Link>
+        <Link to={'/'}>
+        <MDBDropdownItem link>Logout</MDBDropdownItem>
+        </Link>
+        </div>
+      </MDBDropdownMenu>
+      </div>
+    </MDBDropdown>
+    </div>
+    </div>
+{/* النهاية لل drop list */}
+                </div>
+            </div>
+        </header>
+         <div class="section-slide ">
+            <div class="container">
+
+    <div>
         {/* <div className='border'>
             <h1>Welcom Sara</h1>
         </div> */}
          <div class="section-slide">
             <div class="container ">
+
                 <div class="services-header">
                     <h3 class="section-title services-title">Here you can choose the 
                     <br></br>room size that is closest<br></br> to your room size.</h3>
@@ -91,6 +143,9 @@ function ChooseRoom() {
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    </div>
     </div>
   )
 }
