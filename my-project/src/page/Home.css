@@ -600,8 +600,8 @@ p {
   padding-bottom: 17px;
 }
 .banner {
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
   background-image: url('../assets/hero.svg');
   background-size: cover;
   background-position: left center;
@@ -756,34 +756,34 @@ p {
   }
 }
 .banner-stats {
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   display: grid;
   max-width: 700px;
-  row-gap: 70px;
+  /* row-gap: 70px; */
   border-radius: 50px;
   --tw-bg-opacity: 1;
   background-color: rgb(248 239 229 / var(--tw-bg-opacity));
-  padding: 40px;
+  /* padding: 40px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 50px; */
   text-align: center;
 }
 
-@media (min-width: 640px) {
+/* @media (min-width: 640px) {
   .banner-stats {
     padding-left: 80px;
     padding-right: 80px;
   }
-}
+} */
 
 @media (min-width: 1024px) {
   .banner-stats {
     display: flex;
     max-width: 100%;
     justify-content: space-between;
-    -moz-column-gap: 70px;
-         column-gap: 70px;
+    /* -moz-column-gap: 70px;
+         column-gap: 70px; */
   }
 }
 
