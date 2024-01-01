@@ -63,8 +63,8 @@ function Signup() {
           {/* <div className='three w-[50%] h-[50rem] mt-[6rem]'>
           <Spline  scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div> */}
-          <div className='mt-[5rem] split' >
-            <div className='desktop'>
+          <div className='split' >
+            <div className='mt-20 desktop'>
            
             <Spline   scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div>
@@ -74,9 +74,9 @@ function Signup() {
           </div>
 
 
-          <div className='login w-[50%] h-[48rem] p-[10rem] flex flex-col justify-around'>
+          <div className='login w-[50%] p-[10rem] flex flex-col justify-around'>
             <p className='font-bold text-6xl text-center max-sm:text-5xl  text-[white]'>SignUp</p>
-            <div className='flex  mt-1 items-center justify-center'>
+            <div className='flex items-center justify-center'>
               <div className='relative form-control'>
                 <input
                   id='username'
@@ -146,7 +146,7 @@ function Signup() {
               </div>
             </div>
             <div className='flex flex-col '>
-              <p className='text-[white] text-center text-1xl mb-[2.5rem] max-sm:w-80'>Do you have an account? <Link to="/Login" className='underline'>Login</Link></p>
+              <p className='text-[white] text-center text-1xl mb-2 max-sm:w-80'>Do you have an account? <Link to="/Login" className='underline'>Login</Link></p>
             </div>
           </div>
         </div>
