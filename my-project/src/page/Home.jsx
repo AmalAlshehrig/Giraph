@@ -86,7 +86,11 @@ function Home() {
                                 <div className="syllabus-num-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>02</div>
                             </div>
                             <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Design Your Room</h3>
-                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The last step is to design your room by dragging and dropping a furiture into your room space.</p>
+                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>
+                              The last step is to design your room by dragging and dropping a furiture into your room space.
+                              <br></br>
+                              <Link to={'/Small'} className=' underline font-bold mb-4'>Start Your Design</Link>
+                              </p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrowplane} loading="lazy" alt=""
                                     className="step-arrow-img"/>
@@ -191,7 +195,7 @@ function Home() {
   </div>
 </div>
 {/* الشخص التالي */}
-<div class=" flex min-h-12 relative items-center justify-center w-full">
+<div class=" flex min-h-12 relative items-center justify-center w-full max-sm:mb-4">
   <div class="bg-[#1F8BA3] rounded-xl overflow-hidden relative text-center p-4 group items-center flex flex-col w-56 hover:shadow-2xl transition-all duration-500 shadow-xl">
     <div class="text-gray-500 cursor-pointer group-hover:scale-105 transition-all">
     <Spline scene="https://prod.spline.design/FV3hnaUzOfngqicg/scene.splinecode" />
