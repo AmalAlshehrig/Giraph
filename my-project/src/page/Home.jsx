@@ -37,8 +37,8 @@ function Home() {
     <section className="banner-inner items-center">
         <div className="container">
             <div className="banner-inner-content">
-                <div className="banner-inner-imgs w-[55rem]">
-                <div className='cursor-pointer'>
+                <div className="banner-inner-imgs">
+                <div className='max-sm:w-56 w-[45rem]'>
                 <Spline scene="https://prod.spline.design/JQ0h7bz8PWJdwXYp/scene.splinecode" />
                  </div>
                  </div>
@@ -56,7 +56,7 @@ function Home() {
                 <div className="syllabus-steps">
                     <h2 className="section-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Getting Started Steps</h2>
                     <div className="syllabus-step-list">
-                        <div className="syllabus-step">
+                        {/* <div className="syllabus-step">
                             <div className="syllabus-step-num">
                                 <img src={stepnumb01} alt="Step 1"/>
                                 <div className="syllabus-num-text">01</div>
@@ -67,14 +67,14 @@ function Home() {
                                 <img src={stepsarrow} loading="lazy" alt=""
                                     className="step-arrow-img"/>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="syllabus-step step-alt">
                             <div className="syllabus-step-num">
                                 <img src={stepnumb02} alt="Step 2"/>
-                                <div className="syllabus-num-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>02</div>
+                                <div className="syllabus-num-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>01</div>
                             </div>
                             <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Choose Your Room Size</h3>
-                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The second step is to choose your room size from three given room sizes: large, medium and small.</p>
+                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The First step is to choose your room size from three given room sizes: large, medium and small.</p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrow} loading="lazy" alt=""
                                     className="step-arrow-img"/>
@@ -83,7 +83,7 @@ function Home() {
                         <div className="syllabus-step">
                             <div className="syllabus-step-num">
                                 <img src={stepnumb03} alt="Step 3"/>
-                                <div className="syllabus-num-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>03</div>
+                                <div className="syllabus-num-text"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>02</div>
                             </div>
                             <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Design Your Room</h3>
                             <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The last step is to design your room by dragging and dropping a furiture into your room space.</p>
