@@ -55,7 +55,7 @@ window.location.reload(false);
       >
         
           <div >
-            <div className='desktop'>
+            <div className='desktop mb-32'>
            
             <Spline   scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div>
@@ -63,7 +63,7 @@ window.location.reload(false);
           <Spline scene="https://prod.spline.design/MydqBB4lN-zS7SV0/scene.splinecode" />
           </div>
           </div>
-          <div className='login'>
+          <div className='login mb-48'>
             <p className='font-bold text-4xl text-center text-white'>Login</p>
             <div className='flex items-center justify-center'>
               <div className='relative form-control'>
