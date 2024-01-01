@@ -92,7 +92,7 @@ useEffect(() => {
                             decoration of the room.</h3>
                         </div>
 
-                        <a href="#" class="service-read-more">Choose</a>
+                        <a href="/Small" class="service-read-more">Choose</a>
                         <div class="service-img-container">
                             <div class="service-img">
                                 <img src="./images/courses_illustr-screen.svg"
