@@ -55,7 +55,7 @@ window.location.reload(false);
       >
         
           <div >
-            <div className='desktop mb-32'>
+            <div className='desktop mb-32 cursor-pointer'>
            
             <Spline   scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div>
