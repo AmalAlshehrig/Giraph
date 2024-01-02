@@ -88,7 +88,7 @@ function Home() {
                             <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>
                               The last step is to design your room by dragging and dropping a furiture into your room space.
                               <br></br>
-                              <Link to={'/Small'} className=' underline font-bold mb-4'>Start Your Design</Link>
+                              <Link to={'/Room'} className=' underline font-bold mb-4'>Start Your Design</Link>
                               </p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrowplane} loading="lazy" alt=""
