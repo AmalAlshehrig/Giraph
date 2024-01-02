@@ -62,12 +62,11 @@ function Home() {
                                 <div className="syllabus-num-text">01</div>
                             </div>
                             <h3 className="item-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Sign Up</h3>
-                            <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The first step is to make account for new user or make login.</p>
-                            <div className="step-arrow-wrap">
+  <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>The first step is to make account for new user or make login.</p>*/}
+                            {/* <div className="step-arrow-wrap">
                                 <img src={stepsarrow} loading="lazy" alt=""
                                     className="step-arrow-img"/>
-                            </div>
-                        </div> */}
+                            </div> */}
                         <div className="syllabus-step step-alt">
                             <div className="syllabus-step-num">
                                 <img src={stepnumb02} alt="Step 2"/>

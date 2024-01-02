@@ -487,8 +487,8 @@ p {
 }
 .section-slide {
   height: 100%;
-  border-bottom-right-radius: 100px;
-  border-bottom-left-radius: 100px;
+  /* border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px; */
 }
 .subheading {
   margin-bottom: 48px;
@@ -816,6 +816,7 @@ p {
   position: relative;
   padding-left: 40px;
   padding-right: 40px;
+  margin-bottom: 70px;
 }
 @media (min-width: 1024px) {
   .syllabus-step {
@@ -825,7 +826,7 @@ p {
 }
 .step-alt {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   padding-left: 40px;
   padding-right: 40px;
 }
