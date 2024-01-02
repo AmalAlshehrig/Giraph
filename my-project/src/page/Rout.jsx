@@ -8,6 +8,7 @@ import ChooseRoom from './ChooseRoom'
 import Small from './Small'
 import LargeRoom from './LargeRoom';
 import Room from './Room';
+import MeduimRoom from './MeduimRoom';
 function Rout() {
   return (
     <div>
@@ -20,6 +21,7 @@ function Rout() {
             <Route path='/LargeRoom' element={<LargeRoom/>}></Route>
             <Route path='/*' element={<Error/>}></Route>
             <Route path='/Room' element={<Room/>}></Route>    
+            <Route path='/MeduimRoom' element={<MeduimRoom/>}></Route>   
         </Routes>
     </div>
   )
