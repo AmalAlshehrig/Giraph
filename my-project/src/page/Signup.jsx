@@ -64,7 +64,7 @@ function Signup() {
           <Spline  scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div> */}
           <div className='split' >
-            <div className='mt-20 desktop'>
+            <div className='mt-20 desktop cursor-pointer'>
            
             <Spline   scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div>

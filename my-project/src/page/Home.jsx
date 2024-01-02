@@ -53,7 +53,7 @@ function Home() {
                 <div className="syllabus-img cursor-grabbing">
                 <Spline scene="https://prod.spline.design/9d2SFuH962NDp8iQ/scene.splinecode" />
                 </div>
-                <div className="syllabus-steps">
+                <div className="syllabus-steps mr-5">
                     <h2 className="section-title"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>Getting Started Steps</h2>
                     <div className="syllabus-step-list">
                         {/* <div className="syllabus-step">
