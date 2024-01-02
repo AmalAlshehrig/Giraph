@@ -116,7 +116,7 @@ useEffect(() => {
                             </h3>
                         </div>
 
-                        <a href="#" class="service-read-more">Choose</a>
+                        <a href="/MeduimRoom" class="service-read-more">Choose</a>
 
                         <div class="service-img-container">
                             <div class="service-img">
