@@ -7,6 +7,7 @@ import Error from './Error'
 import ChooseRoom from './ChooseRoom'
 import Small from './Small'
 import LargeRoom from './LargeRoom';
+import Room from './Room';
 function Rout() {
   return (
     <div>
@@ -17,7 +18,8 @@ function Rout() {
             <Route path='/ChooseRoom' element={<ChooseRoom/>}></Route>
             <Route path='/Small' element={<Small/>}></Route>
             <Route path='/LargeRoom' element={<LargeRoom/>}></Route>
-            <Route path='/*' element={<Error/>}></Route>  
+            <Route path='/*' element={<Error/>}></Route>
+            <Route path='/Room' element={<Room/>}></Route>    
         </Routes>
     </div>
   )
