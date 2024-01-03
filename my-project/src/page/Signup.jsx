@@ -63,18 +63,18 @@ function Signup() {
           {/* <div className='three w-[50%] h-[50rem] mt-[6rem]'>
           <Spline  scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div> */}
-          <div className='split' >
-            <div className='mt-20 desktop cursor-pointer'>
+          <div >
+            <div className='desktop mb-32 cursor-pointer'>
            
             <Spline   scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div>
-          <div className='mobile split1'>
+          <div className='mobile'>
           <Spline scene="https://prod.spline.design/MydqBB4lN-zS7SV0/scene.splinecode" />
           </div>
           </div>
 
 
-          <div className='login w-[50%] p-[10rem] flex flex-col justify-around'>
+          <div className='login '>
             <p className='font-bold text-6xl text-center max-sm:text-5xl  text-[white]'>SignUp</p>
             <div className='flex items-center justify-center'>
               <div className='relative form-control'>
@@ -119,15 +119,15 @@ function Signup() {
             </div>
             <div className='flex items-center justify-center'>
               <div className='relative form-control'>
-                <input
+                <input 
                   id='Password'
                   name='Password'
                   type='password'
-                  className='border-b border-gray-300 py-1 focus:border-b-2 focus:border-[#f7eee4] transition-colors focus:outline-none peer bg-inherit'
+                  className='pass border-b border-gray-300 py-1 focus:border-b-2 focus:border-[#f7eee4] transition-colors focus:outline-none peer bg-inherit'
                   required
                   value={password} onChange={(e)=>setpassword(e.target.value)}
                 />
-                <label htmlFor='Password' className='form-label'>
+                <label htmlFor='Password' className='pass form-label'>
                   <span style={{ transitionDelay: '0ms' }}>P</span>
                   <span style={{ transitionDelay: '50ms' }}>a</span>
                   <span style={{ transitionDelay: '100ms' }}>s</span>
@@ -137,6 +137,7 @@ function Signup() {
                   <span style={{ transitionDelay: '300ms' }}>r</span>
                   <span style={{ transitionDelay: '350ms' }}>d</span>
                 </label>
+                
                 <button 
                     style={{ fontFamily: 'Signika Negative, sans-serif' }}
                     onClick={registerBtn}

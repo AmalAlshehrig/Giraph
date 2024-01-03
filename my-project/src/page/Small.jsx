@@ -60,7 +60,6 @@ function Small() {
   return (
     <div>
           <Spline scene="https://prod.spline.design/0u1nRIwM69Rdu4Ci/scene.splinecode" />
-
     </div>
   )
 }
