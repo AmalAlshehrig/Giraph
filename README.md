@@ -80,5 +80,5 @@ that website using 3D design</h4>
 
 
 </P>
-<img src= "/Users/ghadaal/Desktop/Screen Shot 1445-06-21 at 3.35.50 PM.png">
+<img src= "https://github.com/AmalAlshehrig/Giraph/assets/98972764/fa4c7267-2eb7-412b-b95a-c6df80c12415">
 
