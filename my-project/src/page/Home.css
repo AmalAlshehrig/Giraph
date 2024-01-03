@@ -1693,3 +1693,9 @@ footer .animate-link::after {
   align-items: center;
 }
  */
+ @media (max-width: 767px) {
+  .container {
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
+ }

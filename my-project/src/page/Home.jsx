@@ -7,8 +7,33 @@ import stepnumb03 from '../assets/step_numb-03.svg'
 import stepsarrow from '../assets/steps_arrow.svg'
 import stepsarrowplane from '../assets/steps_arrow-plane.svg'
 import Logo from '../assets/1.webp'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { MDBDropdown, MDBDropdownMenu, MDBDropdownToggle, MDBDropdownItem } from 'mdb-react-ui-kit';
+import axios from 'axios';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import { Navigate } from 'react-router-dom';
+useNavigate
 function Home() {
+  const navigate=useNavigate()
+ const userName = localStorage.getItem('userName');
+const iduser = localStorage.getItem('id');
+const [info, setInfo] = useState({});
+
+useEffect(() => {
+    axios.get(`https://657dbe8d3e3f5b189463109e.mockapi.io/register/${iduser}`)
+        .then((response) => {
+            console.log(response);
+            setInfo(response.data);
+        })
+        .catch((error) => {
+            console.error(`Error fetching data for user with id ${iduser}:`, error);
+        });
+}, [iduser]);
+function out(){
+localStorage.clear()
+navigate('/')
+}
   return (
     <>
      <main className="section-slides">
@@ -20,6 +45,44 @@ function Home() {
                 <img src={Logo}/>
                 </a>
             </div>
+           {localStorage.getItem('userName')?
+            <div>
+            <div className="nav-right">
+                <div className="nav-cta">
+                    {/* <button 
+                    style={{ fontFamily: 'Signika Negative, sans-serif' }}
+                    class="relative py-2 px-8 text-black text-base font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#1F8BA3] before:to-[#1F8BA3] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
+                     Welcome {userName} 👋
+                    </button> */}
+                    <div className="nav-right">
+                <div className="nav-cta">
+                     <MDBDropdown>
+                     <div className='flex flex-col text-center'>
+      <MDBDropdownToggle tag='a' className='btn btn-primary'
+      style={{ fontFamily: 'Signika Negative, sans-serif' }}
+      class="relative py-2 px-8 text-black text-base font-bold uppercase rounded-[50px] overflow-hidden bg-[#F7ECE4] transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#EBC7B5] before:to-[#EBC7B5] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0">
+      Welcome {userName} 👋
+      </MDBDropdownToggle>
+      <MDBDropdownMenu>
+        <div 
+        style={{ fontFamily: 'Signika Negative, sans-serif' }}
+        className='border items-center w-full py-2 px-8 bg-[#F7ECE4] mt-4 rounded-lg text-sm'>
+        <MDBDropdownItem link>Name:{info.userName}</MDBDropdownItem>
+        <MDBDropdownItem link>Email:{info.email}</MDBDropdownItem>
+        <button onClick={(()=>out())}>
+        <MDBDropdownItem link className='font-bold hover:text-red-800'>Logout</MDBDropdownItem>
+        </button>
+        </div>
+      </MDBDropdownMenu>
+      </div>
+    </MDBDropdown>
+    </div>
+    </div>
+{/* النهاية لل drop list */}
+                </div>
+            </div>
+            </div>
+            :
             <div className="nav-right">
                 <div className="nav-cta">
                     <Link to={'/Signup'}>
@@ -31,6 +94,7 @@ function Home() {
                     </Link>
                 </div>
             </div>
+            }
         </header>
     </div>
 
@@ -88,7 +152,11 @@ function Home() {
                             <p className="item-p"  style={{ fontFamily: 'Signika Negative, sans-serif' }}>
                               The last step is to design your room by dragging and dropping a furiture into your room space.
                               <br></br>
+                              {localStorage.getItem('userName')?
+                              <Link to={'/ChooseRoom'} className=' underline font-bold mb-4'>Start Your Design</Link>
+                              :
                               <Link to={'/Room'} className=' underline font-bold mb-4'>Start Your Design</Link>
+                                }
                               </p>
                             <div className="step-arrow-wrap">
                                 <img src={stepsarrowplane} loading="lazy" alt=""

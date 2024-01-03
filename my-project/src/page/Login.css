@@ -2,24 +2,19 @@
   background-image: url('../assets/logo7.png');
   background-size: cover;
   background-position: center;
-  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   align-items: center;
   justify-content: center;
-
-
 }
 .mobile {
   display: none;
-
 }
 /* .column {
   display: flex;
   flex-direction: column;
 } */
-
 .btn{
   margin: 2.5rem;
   /* height: 7rem; */
@@ -84,15 +79,17 @@
 }
 .login-desktop {
   width: 25rem;
-
   /* display: flex;
   justify-content: center;
   align-items: center; */
-
 }
 .split {
   width: 50%;
 }
+.btn {
+ width:25.5rem ;
+}
+  
 
 /* mobile device  */
 @media (max-width: 767px) {
@@ -104,15 +101,11 @@
     flex-direction: column;
     background-image: url('../assets/mobile-background.png');
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background-position: ;
+    height: 100%;
     /* gap: 5rem; */
     align-items: center;
-    justify-content: center;
-    border: purple 1px solid;
-  
- 
-  
+    justify-content: center;  
   }
   .split1 {
     width: 100%;
@@ -148,12 +141,12 @@
   .login1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-
   }
   
   .form-control {
-    margin: 20px 0 40px;
+    margin: 20px 0 25px;
     width: 100%;
   }
   
@@ -177,7 +170,7 @@
   .mobile {
 
     /* height:10rem; */
-
+   margin-top: 1.5rem;
     display: block;
     /* border: green 1px solid; */
     width: 100%;
@@ -204,7 +197,6 @@
   }
 
   .three {
- 
     height:50rem;
      /* display: none;  */
   }
@@ -214,6 +206,9 @@
     width: 11rem;
 
 
+  }
+  .pass{
+    margin-left: 1rem;
   }
 
 }

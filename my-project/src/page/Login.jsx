@@ -50,7 +50,7 @@ window.location.reload(false);
   return (
     
       <div
-        className='login-container bg-cover bg-no-repeat'
+        className='login-container  bg-no-repeat'
         style={{ fontFamily: 'Signika Negative, sans-serif' }}
       >
         

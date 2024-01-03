@@ -1,13 +1,16 @@
 import React from 'react'
 import './Home.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Logo from '../assets/1.webp'
 import { MDBDropdown, MDBDropdownMenu, MDBDropdownToggle, MDBDropdownItem } from 'mdb-react-ui-kit';
 import axios from 'axios';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Navigate } from 'react-router-dom';
+useNavigate
 function ChooseRoom() {
-    const userName = localStorage.getItem('userName');
+const navigate=useNavigate()
+const userName = localStorage.getItem('userName');
 const iduser = localStorage.getItem('id');
 const [info, setInfo] = useState({});
 
@@ -21,6 +24,10 @@ useEffect(() => {
             console.error(`Error fetching data for user with id ${iduser}:`, error);
         });
 }, [iduser]);
+function out(){
+    localStorage.clear()
+    navigate('/')
+    }
   return (
 
     <div className='bgChooseRoom'>
@@ -52,9 +59,9 @@ useEffect(() => {
         className='border items-center w-full py-2 px-8 bg-[#F7ECE4] mt-4 rounded-lg text-sm'>
         <MDBDropdownItem link>Name:{info.userName}</MDBDropdownItem>
         <MDBDropdownItem link>Email:{info.email}</MDBDropdownItem>
-        <Link to={'/'}>
+        <button onClick={(()=>out())}>
         <MDBDropdownItem link className='font-bold hover:text-red-800'>Logout</MDBDropdownItem>
-        </Link>
+        </button>
         </div>
       </MDBDropdownMenu>
       </div>
