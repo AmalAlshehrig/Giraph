@@ -7,7 +7,7 @@ import Spline from '@splinetool/react-spline';
 
 function Small() {
   // camera
-  const camera = new THREE.OrthographicCamera(window.innerWidth / - 2, window.innerWidth / 2, window.innerHeight / 2, window.innerHeight / - 2,  -50000, 10000);
+  const camera = new THREE.OrthographicCamera(4 / - 2, 4 / 2, 4 / 2, 4 / - 2,  -1, 1);
   camera.position.set(0, 0, 0);
   camera.quaternion.setFromEuler(new THREE.Euler(0, 0, 0));
   
@@ -25,7 +25,7 @@ function Small() {
   
   // renderer
   const renderer = new THREE.WebGLRenderer({ antialias: true });
-  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setSize(4,4);
   renderer.setAnimationLoop(animate);
   document.body.appendChild(renderer.domElement);
   
@@ -33,7 +33,7 @@ function Small() {
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.PCFShadowMap;
   
-  scene.background = new THREE.Color('#d5d5d5');
+  scene.background = new THREE.Color('#F7ECE4');
   renderer.setClearAlpha(1);
   
   // orbit controls
@@ -43,12 +43,12 @@ function Small() {
   
   window.addEventListener('resize', onWindowResize);
   function onWindowResize() {
-    camera.left = window.innerWidth / - 2;
-    camera.right = window.innerWidth / 2;
-    camera.top = window.innerHeight / 2;
-    camera.bottom = window.innerHeight / - 2;
+    camera.left = 2 / - 2;
+    camera.right = 2 / 2;
+    camera.top = 2 / 2;
+    camera.bottom = 2 / - 2;
     camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(2, 2);
   }
   
   function animate(time) {
