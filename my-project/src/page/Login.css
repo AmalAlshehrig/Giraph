@@ -19,9 +19,8 @@
   margin: 2.5rem;
   /* height: 7rem; */
   width: 28rem;
-
-
 }
+
 .form-control {
   position: relative;
   margin: 20px 0 40px;
@@ -71,11 +70,28 @@
   justify-content: center;
   align-items: center;
   height: screen;
-  justify-content: space-around;
+  width: 100%;
+}
+.login1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: screen;
   width: 100%;
 }
 .desktop {
+  display: block;
   height: 50rem;
+  width: 100%;
+  padding-top:17rem ;
+}
+.desktop1 {
+  display: block;
+  height: 50rem;
+  width: 100%;
+  padding-top:3rem ;
 }
 .login-desktop {
   width: 25rem;
@@ -101,7 +117,7 @@
     flex-direction: column;
     background-image: url('../assets/mobile-background.png');
     background-size: cover;
-    background-position: ;
+    background-position: center;
     height: 100%;
     /* gap: 5rem; */
     align-items: center;
@@ -117,7 +133,9 @@
   .desktop {
     display: none;
   }
-
+.desktop1{
+  display: none;
+}
   .column {
     display: flex;
     flex-direction: column;
