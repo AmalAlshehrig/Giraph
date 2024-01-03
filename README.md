@@ -45,11 +45,11 @@ that website using 3D design</h4>
 <br>
 <a href= "https://github.com/ghadah2019">Ghadah</a>
 <br>
----------------------------------------------
+<!-- ---------------------------------------------
 <br>
 <a href='https://www.figma.com/file/QDnDUpuB8haiavVLq4swHP/Final-project?type=design&node-id=0%3A1&mode=design&t=BSHY77AM24IEJoAY-1'>Figma</a>
 <br>
-<a>netlify-deployments</a>
+<a>netlify-deployments</a> -->
 
 
 <h1>وصف المشروع</h1>
