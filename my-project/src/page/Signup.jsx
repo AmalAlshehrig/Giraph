@@ -54,18 +54,13 @@ function Signup() {
 
        }
   return (
-    <div className='login-container  '>
-      <div
-        className='flex flex-col justify-center items-center bg-cover bg-no-repeat h-[100vh]  w-screen'
-        style={{ fontFamily: 'Signika Negative, sans-serif' }}
-      >
-        <div className='w-[100%] flex login1 '>
-          {/* <div className='three w-[50%] h-[50rem] mt-[6rem]'>
-          <Spline  scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
-          </div> */}
-          <div >
-            <div className='desktop mb-32 cursor-pointer'>
-           
+    <div
+    className='login-container  bg-no-repeat'
+    style={{ fontFamily: 'Signika Negative, sans-serif' }}
+  >
+    
+      <div >
+         <div className='desktop mb-32 cursor-pointer'>
             <Spline   scene='https://prod.spline.design/Keh4ExdLN3pYjCie/scene.splinecode' />
           </div>
           <div className='mobile'>
@@ -74,7 +69,7 @@ function Signup() {
           </div>
 
 
-          <div className='login '>
+          <div className='login'>
             <p className='font-bold text-6xl text-center max-sm:text-5xl  text-[white]'>SignUp</p>
             <div className='flex items-center justify-center'>
               <div className='relative form-control'>
@@ -151,8 +146,6 @@ function Signup() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
   );
 }
 

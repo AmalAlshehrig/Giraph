@@ -66,10 +66,10 @@ navigate('/')
       <MDBDropdownMenu>
         <div 
         style={{ fontFamily: 'Signika Negative, sans-serif' }}
-        className='border items-center w-full py-2 px-8 bg-[#F7ECE4] mt-4 rounded-lg text-sm'>
-        <MDBDropdownItem link>Name:{info.userName}</MDBDropdownItem>
-        <MDBDropdownItem link>Email:{info.email}</MDBDropdownItem>
-        <button onClick={(()=>out())}>
+        className='border text-left w-[13.6rem] py-2 px-2 bg-[#F7ECE4] mt-4 rounded-lg text-sm text-black'>
+        <MDBDropdownItem link className='mt-1'><span className='font-bold'>Name:</span> {info.userName}</MDBDropdownItem>
+        <MDBDropdownItem link className='mt-1'><span className='font-bold'>Email:</span> {info.email}</MDBDropdownItem>
+        <button className='border border-black hover:border-red-800 rounded-lg p-1 mt-2 w-full' onClick={(()=>out())}>
         <MDBDropdownItem link className='font-bold hover:text-red-800'>Logout</MDBDropdownItem>
         </button>
         </div>
