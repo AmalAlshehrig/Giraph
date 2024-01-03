@@ -48,5 +48,7 @@ Mobile Compatibility: The website is optimized for mobile devices, allowing user
 </p>
 <h1>Team Memberes :</h1>
 <a href='https://github.com/kira-1997'>Areej</a>
+<br>
 <a href='https://github.com/AmalAlshehrig'>Amal</a>
+<br>
 <a href='https://github.com/ghadah2019'>Ghadah</a>
