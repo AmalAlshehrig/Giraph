@@ -46,8 +46,10 @@ Mobile Compatibility: The website is optimized for mobile devices, allowing user
 عرض ثلاثي الأبعاد ورؤية 360 درجة: يمكنك رؤية تصميمك ثلاثي الأبعاد بشكل كامل، وتجربته من زوايا مختلفة. يمكنك تجويف الغرفة ورؤية التفاصيل بوضوح، مما يساعدك على اتخاذ القرارات الصحيحة بشأن تصميم الغرفة.
 
 </p>
+<div style='flex'>
 <img src='https://media.discordapp.net/attachments/1189462489675603991/1192197537239662692/Screen_Shot_1445-06-21_at_11.06.46_PM.png?ex=65a8337a&is=6595be7a&hm=0269bcd7a118627923cef86ee1133f1e653fcfbb3bdbfb4e7fc9f4c99df2fb3a&=&format=webp&quality=lossless&width=439&height=577'>
 <img src='https://media.discordapp.net/attachments/1189462489675603991/1192197150348685423/Screen_Shot_1445-06-21_at_11.05.14_PM.png?ex=65a8331e&is=6595be1e&hm=ac78436fbf623a734f59e2e2305ef89ada876fa65712fd58acfd4a3c496a65e5&=&format=webp&quality=lossless&width=1026&height=577'>
+</div>
 <h1>Team Memberes :</h1>
 <a href='https://github.com/kira-1997'>Areej</a>
 <br>
