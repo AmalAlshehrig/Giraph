@@ -55,4 +55,5 @@ Mobile Compatibility: The website is optimized for mobile devices, allowing user
 <br>
 <p>Amal: <span><a href='https://github.com/AmalAlshehrig'>Github</a>, <a href='https://www.linkedin.com/in/amal-alshehrii'>Linkdin.</a></span></p>
 <br>
-<a href='https://github.com/ghadah2019'>Ghadah</a>
+<p>Ghadah: <span><a href='https://github.com/ghadah2019'>Github</a>, <a href='https://www.linkedin.com/in/ghadah-alonezan'>Linkdin.</a></span></p>
+
