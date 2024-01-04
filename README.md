@@ -53,6 +53,6 @@ Mobile Compatibility: The website is optimized for mobile devices, allowing user
 <h1>Team Members:</h1>
 <p>Areej: <span><a href='https://github.com/kira-1997'>Github</a>, <a href='https://www.linkedin.com/in/areej-al'>Linkdin.</a></span></p>
 <br>
-<a href='https://github.com/AmalAlshehrig'>Amal</a>
+<p>Amal: <span><a href='https://github.com/AmalAlshehrig'>Github</a>, <a href='https://www.linkedin.com/in/amal-alshehrii'>Linkdin.</a></span></p>
 <br>
 <a href='https://github.com/ghadah2019'>Ghadah</a>
