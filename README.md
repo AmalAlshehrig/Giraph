@@ -51,9 +51,9 @@ Mobile Compatibility: The website is optimized for mobile devices, allowing user
 <img src='https://media.discordapp.net/attachments/1189462489675603991/1192197150348685423/Screen_Shot_1445-06-21_at_11.05.14_PM.png?ex=65a8331e&is=6595be1e&hm=ac78436fbf623a734f59e2e2305ef89ada876fa65712fd58acfd4a3c496a65e5&=&format=webp&quality=lossless&width=1026&height=577'>
 </div>
 <h1>Team Members:</h1>
-<p>Areej: <span><a href='https://github.com/kira-1997'>Github</a>, <a href='https://www.linkedin.com/in/areej-al'>Linkdin.</a></span></p>
+<p>Areej: <span><a href='https://github.com/kira-1997'>Github</a>, <a href='https://www.linkedin.com/in/areej-al'>linkedin.</a></span></p>
 <br>
-<p>Amal: <span><a href='https://github.com/AmalAlshehrig'>Github</a>, <a href='https://www.linkedin.com/in/amal-alshehrii'>Linkdin.</a></span></p>
+<p>Amal: <span><a href='https://github.com/AmalAlshehrig'>Github</a>, <a href='https://www.linkedin.com/in/amal-alshehrii'>linkedin.</a></span></p>
 <br>
-<p>Ghadah: <span><a href='https://github.com/ghadah2019'>Github</a>, <a href='https://www.linkedin.com/in/ghadah-alonezan'>Linkdin.</a></span></p>
+<p>Ghadah: <span><a href='https://github.com/ghadah2019'>Github</a>, <a href='https://www.linkedin.com/in/ghadah-alonezan'>linkedin.</a></span></p>
 
