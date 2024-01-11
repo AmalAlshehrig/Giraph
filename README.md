@@ -56,4 +56,5 @@ Mobile Compatibility: The website is optimized for mobile devices, allowing user
 <p>Amal: <span><a href='https://github.com/AmalAlshehrig'>Github</a>, <a href='https://www.linkedin.com/in/amal-alshehrii'>linkedin.</a></span></p>
 <br>
 <p>Ghadah: <span><a href='https://github.com/ghadah2019'>Github</a>, <a href='https://www.linkedin.com/in/ghadah-alonezan'>linkedin.</a></span></p>
-
+<h1>AWS :</h1>
+<a href='https://main.d2vp5apzisw3dy.amplifyapp.com/#'>Giraph</a>
